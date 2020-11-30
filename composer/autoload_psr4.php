@@ -33,6 +33,7 @@ return array(
     'Serializers\\' => array($vendorDir . '/serialization/serialization/src/Serializers'),
     'Seld\\JsonLint\\' => array($vendorDir . '/seld/jsonlint/src/Seld/JsonLint'),
     'SRF\\' => array($baseDir . '/extensions/SemanticResultFormats/src'),
+    'SMW\\Scribunto\\' => array($baseDir . '/extensions/SemanticScribunto/src'),
     'SMW\\Maintenance\\' => array($baseDir . '/extensions/SemanticMediaWiki/maintenance'),
     'SMW\\' => array($baseDir . '/extensions/SemanticMediaWiki/src'),
     'SESP\\' => array($baseDir . '/extensions/SemanticExtraSpecialProperties/src'),

@@ -14,9 +14,9 @@ return array(
     '94e265ce14c952a920a4ea5f7e8e9baa' => $vendorDir . '/mediawiki/parser-hooks/ParserHooks.php',
     '5a04c63399fef01344b45823e301d04d' => $vendorDir . '/onoi/shared-resources/Resources.php',
     'eccc0347283a01e62f5536bcf76b6e62' => $vendorDir . '/wikimedia/at-ease/src/Wikimedia/Functions.php',
+    'cd9b6b6b76aed1304a64986142337d3a' => $baseDir . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
     '7b11c4dc42b3b3023073cb14e519683c' => $vendorDir . '/ralouphie/getallheaders/src/getallheaders.php',
     'a0edc8309cc5e1d60e3047b5df6b7052' => $vendorDir . '/guzzlehttp/psr7/src/functions_include.php',
-    'cd9b6b6b76aed1304a64986142337d3a' => $baseDir . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
     'e69f7f6ee287b969198c3c9d6777bd38' => $vendorDir . '/symfony/polyfill-intl-normalizer/bootstrap.php',
     '25072dd6e2470089de65ae7bf11d3109' => $vendorDir . '/symfony/polyfill-php72/bootstrap.php',
     'c3f7f0e81464740a933532e81fa26cc7' => $vendorDir . '/wikimedia/base-convert/src/Functions.php',
@@ -29,6 +29,7 @@ return array(
     'd18fa3b1dccd02b483afde268abd780d' => $baseDir . '/extensions/SemanticCite/SemanticCite.php',
     '49b46b7a2828914e66c76de75c8414c0' => $baseDir . '/extensions/SemanticExtraSpecialProperties/SemanticExtraSpecialProperties.php',
     '43b3c7644dd913f46db744c4ac998fef' => $baseDir . '/extensions/SemanticResultFormats/SemanticResultFormats.php',
+    'f2252e86055d59cbb0c41168be6e62e9' => $baseDir . '/extensions/SemanticScribunto/SemanticScribunto.php',
     '4d945db823e5f6ca6dd83ad1f5fbcc43' => $vendorDir . '/wikimedia/relpath/src/RelPath/RelPath.php',
     '6513700b70192b7dfd0e5e9fc8082cf3' => $vendorDir . '/wikimedia/relpath/src/Wikimedia/RelPath.php',
 );

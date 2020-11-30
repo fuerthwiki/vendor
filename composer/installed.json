@@ -1884,6 +1884,72 @@
         ]
     },
     {
+        "name": "mediawiki/semantic-scribunto",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SemanticMediaWiki/SemanticScribunto.git",
+            "reference": "2d318577fa484d55de74414ab911443531c08f73"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticScribunto/zipball/2d318577fa484d55de74414ab911443531c08f73",
+            "reference": "2d318577fa484d55de74414ab911443531c08f73",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "1.*,>=1.0.1",
+            "mediawiki/semantic-media-wiki": "~3.0",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "mediawiki/semantic-media-wiki": "@dev",
+            "phpmd/phpmd": "~2.1",
+            "squizlabs/php_codesniffer": "~2.1"
+        },
+        "time": "2019-08-18T16:48:53+00:00",
+        "type": "mediawiki-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "SemanticScribunto.php"
+            ],
+            "psr-4": {
+                "SMW\\Scribunto\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "James Hong Kong",
+                "role": "Creator"
+            },
+            {
+                "name": "Tobias Oetterer",
+                "role": "Developer"
+            }
+        ],
+        "description": "A Semantic Mediawiki extension to natively support the Scribunto extension",
+        "homepage": "https://www.semantic-mediawiki.org/wiki/Extension:SemanticScribunto",
+        "keywords": [
+            "SMW",
+            "Scribunto",
+            "Semantic MediaWiki",
+            "lua",
+            "mediawiki",
+            "wiki"
+        ]
+    },
+    {
         "name": "mediawiki/validator",
         "version": "2.2.3",
         "version_normalized": "2.2.3.0",

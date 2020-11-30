@@ -15,9 +15,9 @@ class ComposerStaticInit_mediawiki_vendor
         '94e265ce14c952a920a4ea5f7e8e9baa' => __DIR__ . '/..' . '/mediawiki/parser-hooks/ParserHooks.php',
         '5a04c63399fef01344b45823e301d04d' => __DIR__ . '/..' . '/onoi/shared-resources/Resources.php',
         'eccc0347283a01e62f5536bcf76b6e62' => __DIR__ . '/..' . '/wikimedia/at-ease/src/Wikimedia/Functions.php',
+        'cd9b6b6b76aed1304a64986142337d3a' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        'cd9b6b6b76aed1304a64986142337d3a' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'c3f7f0e81464740a933532e81fa26cc7' => __DIR__ . '/..' . '/wikimedia/base-convert/src/Functions.php',
@@ -30,6 +30,7 @@ class ComposerStaticInit_mediawiki_vendor
         'd18fa3b1dccd02b483afde268abd780d' => __DIR__ . '/../..' . '/extensions/SemanticCite/SemanticCite.php',
         '49b46b7a2828914e66c76de75c8414c0' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/SemanticExtraSpecialProperties.php',
         '43b3c7644dd913f46db744c4ac998fef' => __DIR__ . '/../..' . '/extensions/SemanticResultFormats/SemanticResultFormats.php',
+        'f2252e86055d59cbb0c41168be6e62e9' => __DIR__ . '/../..' . '/extensions/SemanticScribunto/SemanticScribunto.php',
         '4d945db823e5f6ca6dd83ad1f5fbcc43' => __DIR__ . '/..' . '/wikimedia/relpath/src/RelPath/RelPath.php',
         '6513700b70192b7dfd0e5e9fc8082cf3' => __DIR__ . '/..' . '/wikimedia/relpath/src/Wikimedia/RelPath.php',
     );
@@ -73,6 +74,7 @@ class ComposerStaticInit_mediawiki_vendor
             'Serializers\\' => 12,
             'Seld\\JsonLint\\' => 14,
             'SRF\\' => 4,
+            'SMW\\Scribunto\\' => 14,
             'SMW\\Maintenance\\' => 16,
             'SMW\\' => 4,
             'SESP\\' => 5,
@@ -265,6 +267,10 @@ class ComposerStaticInit_mediawiki_vendor
         'SRF\\' => 
         array (
             0 => __DIR__ . '/../..' . '/extensions/SemanticResultFormats/src',
+        ),
+        'SMW\\Scribunto\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/extensions/SemanticScribunto/src',
         ),
         'SMW\\Maintenance\\' => 
         array (
@@ -2648,6 +2654,10 @@ class ComposerStaticInit_mediawiki_vendor
         'SMW\\Schema\\SchemaList' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/src/Schema/SchemaList.php',
         'SMW\\Schema\\SchemaTypes' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/src/Schema/SchemaTypes.php',
         'SMW\\Schema\\SchemaValidator' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/src/Schema/SchemaValidator.php',
+        'SMW\\Scribunto\\HookRegistry' => __DIR__ . '/../..' . '/extensions/SemanticScribunto/src/HookRegistry.php',
+        'SMW\\Scribunto\\LibraryFactory' => __DIR__ . '/../..' . '/extensions/SemanticScribunto/src/LibraryFactory.php',
+        'SMW\\Scribunto\\LuaAskResultProcessor' => __DIR__ . '/../..' . '/extensions/SemanticScribunto/src/LuaAskResultProcessor.php',
+        'SMW\\Scribunto\\ScribuntoLuaLibrary' => __DIR__ . '/../..' . '/extensions/SemanticScribunto/src/ScribuntoLuaLibrary.php',
         'SMW\\SemanticData' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/SemanticData.php',
         'SMW\\SerializerFactory' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/src/SerializerFactory.php',
         'SMW\\Serializers\\ExpDataSerializer' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/src/Serializers/ExpDataSerializer.php',
