@@ -35,6 +35,7 @@ return array(
     'SRF\\' => array($baseDir . '/extensions/SemanticResultFormats/src'),
     'SMW\\Maintenance\\' => array($baseDir . '/extensions/SemanticMediaWiki/maintenance'),
     'SMW\\' => array($baseDir . '/extensions/SemanticMediaWiki/src'),
+    'SESP\\' => array($baseDir . '/extensions/SemanticExtraSpecialProperties/src'),
     'RemexHtml\\' => array($vendorDir . '/wikimedia/remex-html/RemexHtml'),
     'React\\Promise\\' => array($vendorDir . '/react/promise/src'),
     'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),

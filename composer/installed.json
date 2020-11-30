@@ -1543,6 +1543,69 @@
         ]
     },
     {
+        "name": "mediawiki/semantic-extra-special-properties",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SemanticMediaWiki/SemanticExtraSpecialProperties.git",
+            "reference": "01a45e484adf008f5edc23e3f499d92863e379f7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticExtraSpecialProperties/zipball/01a45e484adf008f5edc23e3f499d92863e379f7",
+            "reference": "01a45e484adf008f5edc23e3f499d92863e379f7",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "1.*,>=1.0.1",
+            "mediawiki/semantic-media-wiki": "~3.1",
+            "php": ">=7.0.0"
+        },
+        "time": "2020-02-09T10:33:11+00:00",
+        "type": "mediawiki-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "SemanticExtraSpecialProperties.php"
+            ],
+            "psr-4": {
+                "SESP\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Leo Wallentin",
+                "homepage": "https://github.com/rotsee",
+                "role": "Creator"
+            },
+            {
+                "name": "James Hong Kong",
+                "homepage": "https://semantic-mediawiki.org/wiki/User:MWJames",
+                "role": "Developer"
+            }
+        ],
+        "description": "Provides extra special properties for Semantic MediaWiki",
+        "homepage": "https://www.semantic-mediawiki.org/wiki/Extension:Semantic_Extra_Special_Properties",
+        "keywords": [
+            "SMW",
+            "Semantic MediaWiki",
+            "mediawiki",
+            "properties",
+            "special properties",
+            "wiki"
+        ]
+    },
+    {
         "name": "mediawiki/semantic-media-wiki",
         "version": "3.2.1",
         "version_normalized": "3.2.1.0",
