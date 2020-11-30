@@ -1543,6 +1543,69 @@
         ]
     },
     {
+        "name": "mediawiki/semantic-cite",
+        "version": "2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SemanticMediaWiki/SemanticCite.git",
+            "reference": "01dc68a453e1d85146742bf7b89623e761056728"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticCite/zipball/01dc68a453e1d85146742bf7b89623e761056728",
+            "reference": "01dc68a453e1d85146742bf7b89623e761056728",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "^1.0.12",
+            "mediawiki/semantic-media-wiki": "~3.0",
+            "onoi/cache": "~1.2",
+            "onoi/http-request": "~1.3",
+            "onoi/remi": "~0.2",
+            "onoi/shared-resources": "~0.2",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "mediawiki/semantic-media-wiki": "@dev"
+        },
+        "time": "2020-05-16T10:04:51+00:00",
+        "type": "mediawiki-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "SemanticCite.php"
+            ],
+            "psr-4": {
+                "SCI\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "James Hong Kong",
+                "role": "Developer"
+            }
+        ],
+        "description": "A Semantic MediaWiki extension to manage citation resources.",
+        "homepage": "https://semantic-mediawiki.org/wiki/Extension:Semantic_Cite",
+        "keywords": [
+            "SMW",
+            "Semantic MediaWiki",
+            "citation",
+            "mediawiki",
+            "wiki"
+        ]
+    },
+    {
         "name": "mediawiki/semantic-extra-special-properties",
         "version": "2.1.0",
         "version_normalized": "2.1.0.0",
@@ -2228,6 +2291,52 @@
         "keywords": [
             "messages",
             "reporter"
+        ]
+    },
+    {
+        "name": "onoi/remi",
+        "version": "0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/onoi/remi.git",
+            "reference": "48898ecd1387656f6decc5bb1e38b4ecbdde5e4a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/onoi/remi/zipball/48898ecd1387656f6decc5bb1e38b4ecbdde5e4a",
+            "reference": "48898ecd1387656f6decc5bb1e38b4ecbdde5e4a",
+            "shasum": ""
+        },
+        "require": {
+            "onoi/http-request": "~1.1",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8"
+        },
+        "time": "2017-05-13T02:25:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Onoi\\Remi\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "mwjames",
+                "homepage": "https://github.com/mwjames"
+            }
+        ],
+        "description": "A small library to mine (parse) REST responses from selected metatdata providers",
+        "homepage": "https://github.com/onoi/remi",
+        "keywords": [
+            "rest"
         ]
     },
     {
