@@ -1660,6 +1660,66 @@
         ]
     },
     {
+        "name": "mediawiki/semantic-compound-queries",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SemanticMediaWiki/SemanticCompoundQueries.git",
+            "reference": "75e8b383b20486809801432133cc9d57bd0a0306"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticCompoundQueries/zipball/75e8b383b20486809801432133cc9d57bd0a0306",
+            "reference": "75e8b383b20486809801432133cc9d57bd0a0306",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "1.*,>=1.0.1",
+            "mediawiki/semantic-media-wiki": "~3.0",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "mediawiki/semantic-media-wiki": "@dev",
+            "phpmd/phpmd": "~2.1",
+            "squizlabs/php_codesniffer": "~2.1"
+        },
+        "time": "2019-08-18T16:34:56+00:00",
+        "type": "mediawiki-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "SemanticCompoundQueries.php"
+            ],
+            "psr-4": {
+                "SCQ\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Yaron Koren",
+                "role": "Original author"
+            }
+        ],
+        "description": "A Semantic Mediawiki extension to display and combine multiple #ask queries in a single visualization output",
+        "homepage": "https://www.mediawiki.org/wiki/Extension:Semantic_Compound_Queries",
+        "keywords": [
+            "SMW",
+            "Semantic MediaWiki",
+            "mediawiki",
+            "wiki"
+        ]
+    },
+    {
         "name": "mediawiki/semantic-extra-special-properties",
         "version": "2.1.0",
         "version_normalized": "2.1.0.0",

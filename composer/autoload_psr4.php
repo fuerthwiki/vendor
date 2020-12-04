@@ -37,6 +37,7 @@ return array(
     'SMW\\Maintenance\\' => array($baseDir . '/extensions/SemanticMediaWiki/maintenance'),
     'SMW\\' => array($baseDir . '/extensions/SemanticMediaWiki/src'),
     'SESP\\' => array($baseDir . '/extensions/SemanticExtraSpecialProperties/src'),
+    'SCQ\\' => array($baseDir . '/extensions/SemanticCompoundQueries/src'),
     'SCI\\' => array($baseDir . '/extensions/SemanticCite/src'),
     'RemexHtml\\' => array($vendorDir . '/wikimedia/remex-html/RemexHtml'),
     'React\\Promise\\' => array($vendorDir . '/react/promise/src'),

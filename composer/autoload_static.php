@@ -14,8 +14,8 @@ class ComposerStaticInit_mediawiki_vendor
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         '94e265ce14c952a920a4ea5f7e8e9baa' => __DIR__ . '/..' . '/mediawiki/parser-hooks/ParserHooks.php',
         '5a04c63399fef01344b45823e301d04d' => __DIR__ . '/..' . '/onoi/shared-resources/Resources.php',
-        'eccc0347283a01e62f5536bcf76b6e62' => __DIR__ . '/..' . '/wikimedia/at-ease/src/Wikimedia/Functions.php',
         'cd9b6b6b76aed1304a64986142337d3a' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
+        'eccc0347283a01e62f5536bcf76b6e62' => __DIR__ . '/..' . '/wikimedia/at-ease/src/Wikimedia/Functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
@@ -28,6 +28,7 @@ class ComposerStaticInit_mediawiki_vendor
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '5cee90b14a8622b5d28c28559972ca28' => __DIR__ . '/../..' . '/extensions/Maps/Maps_Settings.php',
         'd18fa3b1dccd02b483afde268abd780d' => __DIR__ . '/../..' . '/extensions/SemanticCite/SemanticCite.php',
+        '3324dfbc75ea60346550e520d749543d' => __DIR__ . '/../..' . '/extensions/SemanticCompoundQueries/SemanticCompoundQueries.php',
         '49b46b7a2828914e66c76de75c8414c0' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/SemanticExtraSpecialProperties.php',
         '43b3c7644dd913f46db744c4ac998fef' => __DIR__ . '/../..' . '/extensions/SemanticResultFormats/SemanticResultFormats.php',
         'f2252e86055d59cbb0c41168be6e62e9' => __DIR__ . '/../..' . '/extensions/SemanticScribunto/SemanticScribunto.php',
@@ -78,6 +79,7 @@ class ComposerStaticInit_mediawiki_vendor
             'SMW\\Maintenance\\' => 16,
             'SMW\\' => 4,
             'SESP\\' => 5,
+            'SCQ\\' => 4,
             'SCI\\' => 4,
         ),
         'R' => 
@@ -284,6 +286,10 @@ class ComposerStaticInit_mediawiki_vendor
         'SESP\\' => 
         array (
             0 => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src',
+        ),
+        'SCQ\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/extensions/SemanticCompoundQueries/src',
         ),
         'SCI\\' => 
         array (
@@ -1704,6 +1710,9 @@ class ComposerStaticInit_mediawiki_vendor
         'SCI\\Specials\\CitableMetadata\\HtmlResponseParserRenderer' => __DIR__ . '/../..' . '/extensions/SemanticCite/src/Specials/CitableMetadata/HtmlResponseParserRenderer.php',
         'SCI\\Specials\\CitableMetadata\\PageBuilder' => __DIR__ . '/../..' . '/extensions/SemanticCite/src/Specials/CitableMetadata/PageBuilder.php',
         'SCI\\Specials\\SpecialFindCitableMetadata' => __DIR__ . '/../..' . '/extensions/SemanticCite/src/Specials/SpecialFindCitableMetadata.php',
+        'SCQ\\Api\\CompoundQuery' => __DIR__ . '/../..' . '/extensions/SemanticCompoundQueries/src/Api/CompoundQuery.php',
+        'SCQ\\CompoundQueryProcessor' => __DIR__ . '/../..' . '/extensions/SemanticCompoundQueries/src/CompoundQueryProcessor.php',
+        'SCQ\\CompoundQueryResult' => __DIR__ . '/../..' . '/extensions/SemanticCompoundQueries/src/CompoundQueryResult.php',
         'SESP\\AppFactory' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/AppFactory.php',
         'SESP\\DatabaseLogReader' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/DatabaseLogReader.php',
         'SESP\\ExtraPropertyAnnotator' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/ExtraPropertyAnnotator.php',
