@@ -1487,6 +1487,60 @@
         ]
     },
     {
+        "name": "mediawiki/mermaid",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SemanticMediaWiki/Mermaid.git",
+            "reference": "e1e8a59a29041ccebf237a8c248c98ae9411aff2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SemanticMediaWiki/Mermaid/zipball/e1e8a59a29041ccebf237a8c248c98ae9411aff2",
+            "reference": "e1e8a59a29041ccebf237a8c248c98ae9411aff2",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "1.*,>=1.0.1",
+            "php": ">=7.0.0"
+        },
+        "time": "2020-08-10T18:40:39+00:00",
+        "type": "mediawiki-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mermaid\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "James Hong Kong",
+                "role": "Developer"
+            },
+            {
+                "name": "Tyler Gibson",
+                "role": "Developer"
+            }
+        ],
+        "description": "Provides a parser function to generate diagrams and charts with the help of the mermaid script language",
+        "homepage": "https://github.com/SemanticMediaWiki/Mermaid",
+        "keywords": [
+            "mediawiki",
+            "mermaid",
+            "parser function"
+        ]
+    },
+    {
         "name": "mediawiki/parser-hooks",
         "version": "1.6.1",
         "version_normalized": "1.6.1.0",

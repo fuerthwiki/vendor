@@ -108,6 +108,7 @@ class ComposerStaticInit_mediawiki_vendor
         ),
         'M' => 
         array (
+            'Mermaid\\' => 8,
             'Maps\\Tests\\' => 11,
             'Maps\\' => 5,
         ),
@@ -356,6 +357,10 @@ class ComposerStaticInit_mediawiki_vendor
         'Onoi\\BlobStore\\' => 
         array (
             0 => __DIR__ . '/..' . '/onoi/blob-store/src',
+        ),
+        'Mermaid\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/extensions/Mermaid/src',
         ),
         'Maps\\Tests\\' => 
         array (
@@ -1353,6 +1358,10 @@ class ComposerStaticInit_mediawiki_vendor
         'Maps\\WikitextParsers\\RectangleParser' => __DIR__ . '/../..' . '/extensions/Maps/src/WikitextParsers/RectangleParser.php',
         'Maps\\WikitextParsers\\WmsOverlayParser' => __DIR__ . '/../..' . '/extensions/Maps/src/WikitextParsers/WmsOverlayParser.php',
         'MathFormats' => __DIR__ . '/../..' . '/extensions/SemanticResultFormats/formats/math/SRF_Math.php',
+        'Mermaid\\Config' => __DIR__ . '/../..' . '/extensions/Mermaid/src/Config.php',
+        'Mermaid\\Hooks' => __DIR__ . '/../..' . '/extensions/Mermaid/src/Hooks.php',
+        'Mermaid\\MermaidConfigExtractor' => __DIR__ . '/../..' . '/extensions/Mermaid/src/MermaidConfigExtractor.php',
+        'Mermaid\\MermaidParserFunction' => __DIR__ . '/../..' . '/extensions/Mermaid/src/MermaidParserFunction.php',
         'Net_SMTP' => __DIR__ . '/..' . '/pear/net_smtp/Net/SMTP.php',
         'Net_Socket' => __DIR__ . '/..' . '/pear/net_socket/Net/Socket.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
