@@ -126,16 +126,6 @@
             "yawik",
             "zend",
             "zikula"
-        ],
-        "funding": [
-            {
-                "url": "https://packagist.com",
-                "type": "custom"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -199,20 +189,6 @@
             "semver",
             "validation",
             "versioning"
-        ],
-        "funding": [
-            {
-                "url": "https://packagist.com",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/composer",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -1096,16 +1072,6 @@
             "psr-16",
             "simple-cache",
             "simplecache"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://www.patreon.com/jeroendedauw",
-                "type": "patreon"
-            }
         ]
     },
     {
@@ -1218,17 +1184,7 @@
                 "role": "Developer"
             }
         ],
-        "description": "Simple and minimalistic Geocoder interface with some basic implementations",
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://www.patreon.com/jeroendedauw",
-                "type": "patreon"
-            }
-        ]
+        "description": "Simple and minimalistic Geocoder interface with some basic implementations"
     },
     {
         "name": "jmikola/geojson",
@@ -1488,16 +1444,6 @@
             "maps",
             "mediawiki",
             "osm"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://www.patreon.com/jeroendedauw",
-                "type": "patreon"
-            }
         ]
     },
     {
@@ -1798,17 +1744,17 @@
     },
     {
         "name": "mediawiki/semantic-media-wiki",
-        "version": "3.2.1",
-        "version_normalized": "3.2.1.0",
+        "version": "3.2.2",
+        "version_normalized": "3.2.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/SemanticMediaWiki/SemanticMediaWiki.git",
-            "reference": "d2516ebbcc47ad519e1ab3cbf39367ecc1fd2c59"
+            "reference": "b75e296a640f9cf6d28526225bf87e63c2a951f0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/d2516ebbcc47ad519e1ab3cbf39367ecc1fd2c59",
-            "reference": "d2516ebbcc47ad519e1ab3cbf39367ecc1fd2c59",
+            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticMediaWiki/zipball/b75e296a640f9cf6d28526225bf87e63c2a951f0",
+            "reference": "b75e296a640f9cf6d28526225bf87e63c2a951f0",
             "shasum": ""
         },
         "require": {
@@ -1842,7 +1788,7 @@
         "suggest": {
             "mediawiki/semantic-result-formats": "Provides additional result formats for queries of structured data"
         },
-        "time": "2020-11-21T11:44:51+00:00",
+        "time": "2020-12-05T10:20:00+00:00",
         "type": "mediawiki-extension",
         "extra": {
             "branch-alias": {
@@ -1891,16 +1837,6 @@
             "Semantic MediaWiki",
             "mediawiki",
             "wiki"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/kghbln",
-                "type": "github"
-            }
         ]
     },
     {
@@ -1991,24 +1927,6 @@
             "Semantic Result Formats",
             "mediawiki",
             "wiki"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/[user1",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/kghbln] # Replace with up to 4 GitHub Sponsors-enabled usernames e.g.",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/user2",
-                "type": "github"
-            }
         ]
     },
     {
@@ -2138,16 +2056,6 @@
             "Semantic MediaWiki",
             "mediawiki",
             "validator"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://www.patreon.com/jeroendedauw",
-                "type": "patreon"
-            }
         ]
     },
     {
@@ -3650,21 +3558,7 @@
             }
         ],
         "description": "Symfony CssSelector Component",
-        "homepage": "https://symfony.com",
-        "funding": [
-            {
-                "url": "https://symfony.com/sponsor",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/fabpot",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                "type": "tidelift"
-            }
-        ]
+        "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/polyfill-intl-idn",
@@ -3736,20 +3630,6 @@
             "polyfill",
             "portable",
             "shim"
-        ],
-        "funding": [
-            {
-                "url": "https://symfony.com/sponsor",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/fabpot",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -3819,20 +3699,6 @@
             "polyfill",
             "portable",
             "shim"
-        ],
-        "funding": [
-            {
-                "url": "https://symfony.com/sponsor",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/fabpot",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -3894,20 +3760,6 @@
             "polyfill",
             "portable",
             "shim"
-        ],
-        "funding": [
-            {
-                "url": "https://symfony.com/sponsor",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/fabpot",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                "type": "tidelift"
-            }
         ]
     },
     {
