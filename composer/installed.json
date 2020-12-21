@@ -5014,25 +5014,30 @@
     },
     {
         "name": "wikimedia/wikipeg",
-        "version": "2.0.4",
-        "version_normalized": "2.0.4.0",
+        "version": "2.0.5",
+        "version_normalized": "2.0.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/wikimedia/wikipeg.git",
-            "reference": "117ddc894cf44f7f8e149e94180b68a8a7c0904d"
+            "reference": "df47c20859c80923d08ce906c5c7412161ef052f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/wikimedia/wikipeg/zipball/117ddc894cf44f7f8e149e94180b68a8a7c0904d",
-            "reference": "117ddc894cf44f7f8e149e94180b68a8a7c0904d",
+            "url": "https://api.github.com/repos/wikimedia/wikipeg/zipball/df47c20859c80923d08ce906c5c7412161ef052f",
+            "reference": "df47c20859c80923d08ce906c5c7412161ef052f",
             "shasum": ""
         },
         "require": {
             "ext-json": "*",
             "ext-mbstring": "*",
-            "php": "^7.2"
+            "php": ">=7.2"
         },
-        "time": "2020-02-13T19:00:24+00:00",
+        "require-dev": {
+            "mediawiki/minus-x": "1.1.0",
+            "php-parallel-lint/php-console-highlighter": "0.5.0",
+            "php-parallel-lint/php-parallel-lint": "1.2.0"
+        },
+        "time": "2020-12-17T21:12:05+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5220,31 +5225,31 @@
     },
     {
         "name": "willdurand/geocoder",
-        "version": "4.3.0",
-        "version_normalized": "4.3.0.0",
+        "version": "4.4.0",
+        "version_normalized": "4.4.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/geocoder-php/php-common.git",
-            "reference": "199d6a853947a5051e7ff14d35849759009bad5d"
+            "reference": "3e86f5b10ab0cef1cf03f979fe8e34b6476daff0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/199d6a853947a5051e7ff14d35849759009bad5d",
-            "reference": "199d6a853947a5051e7ff14d35849759009bad5d",
+            "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/3e86f5b10ab0cef1cf03f979fe8e34b6476daff0",
+            "reference": "3e86f5b10ab0cef1cf03f979fe8e34b6476daff0",
             "shasum": ""
         },
         "require": {
-            "php": "^7.2"
+            "php": "^7.3 || ^8.0"
         },
         "require-dev": {
             "nyholm/nsa": "^1.1",
-            "phpunit/phpunit": "^7.5",
+            "phpunit/phpunit": "^9.5",
             "symfony/stopwatch": "~2.5"
         },
         "suggest": {
             "symfony/stopwatch": "If you want to use the TimedGeocoder"
         },
-        "time": "2020-07-04T13:18:10+00:00",
+        "time": "2020-12-21T09:30:01+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
