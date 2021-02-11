@@ -56,7 +56,6 @@ return array(
     'Onoi\\CallbackContainer\\' => array($vendorDir . '/onoi/callback-container/src'),
     'Onoi\\Cache\\' => array($vendorDir . '/onoi/cache/src'),
     'Onoi\\BlobStore\\' => array($vendorDir . '/onoi/blob-store/src'),
-    'Mermaid\\' => array($baseDir . '/extensions/Mermaid/src'),
     'Maps\\Tests\\' => array($baseDir . '/extensions/Maps/tests'),
     'Maps\\' => array($baseDir . '/extensions/Maps/src'),
     'LightnCandy\\' => array($vendorDir . '/zordius/lightncandy/src'),

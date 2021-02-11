@@ -110,7 +110,6 @@ class ComposerStaticInit_mediawiki_vendor
         ),
         'M' => 
         array (
-            'Mermaid\\' => 8,
             'Maps\\Tests\\' => 11,
             'Maps\\' => 5,
         ),
@@ -364,10 +363,6 @@ class ComposerStaticInit_mediawiki_vendor
         array (
             0 => __DIR__ . '/..' . '/onoi/blob-store/src',
         ),
-        'Mermaid\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/extensions/Mermaid/src',
-        ),
         'Maps\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/extensions/Maps/tests',
@@ -610,6 +605,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Composer\\Installers\\Plugin' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/Plugin.php',
         'Composer\\Installers\\PortoInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PortoInstaller.php',
         'Composer\\Installers\\PrestashopInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PrestashopInstaller.php',
+        'Composer\\Installers\\ProcessWireInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ProcessWireInstaller.php',
         'Composer\\Installers\\PuppetInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PuppetInstaller.php',
         'Composer\\Installers\\PxcmsInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PxcmsInstaller.php',
         'Composer\\Installers\\RadPHPInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/RadPHPInstaller.php',
@@ -621,6 +617,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Composer\\Installers\\ShopwareInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ShopwareInstaller.php',
         'Composer\\Installers\\SilverStripeInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/SilverStripeInstaller.php',
         'Composer\\Installers\\SiteDirectInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/SiteDirectInstaller.php',
+        'Composer\\Installers\\StarbugInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/StarbugInstaller.php',
         'Composer\\Installers\\SyDESInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/SyDESInstaller.php',
         'Composer\\Installers\\SyliusInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/SyliusInstaller.php',
         'Composer\\Installers\\Symfony1Installer' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/Symfony1Installer.php',
@@ -1364,10 +1361,6 @@ class ComposerStaticInit_mediawiki_vendor
         'Maps\\WikitextParsers\\RectangleParser' => __DIR__ . '/../..' . '/extensions/Maps/src/WikitextParsers/RectangleParser.php',
         'Maps\\WikitextParsers\\WmsOverlayParser' => __DIR__ . '/../..' . '/extensions/Maps/src/WikitextParsers/WmsOverlayParser.php',
         'MathFormats' => __DIR__ . '/../..' . '/extensions/SemanticResultFormats/formats/math/SRF_Math.php',
-        'Mermaid\\Config' => __DIR__ . '/../..' . '/extensions/Mermaid/src/Config.php',
-        'Mermaid\\Hooks' => __DIR__ . '/../..' . '/extensions/Mermaid/src/Hooks.php',
-        'Mermaid\\MermaidConfigExtractor' => __DIR__ . '/../..' . '/extensions/Mermaid/src/MermaidConfigExtractor.php',
-        'Mermaid\\MermaidParserFunction' => __DIR__ . '/../..' . '/extensions/Mermaid/src/MermaidParserFunction.php',
         'Net_SMTP' => __DIR__ . '/..' . '/pear/net_smtp/Net/SMTP.php',
         'Net_Socket' => __DIR__ . '/..' . '/pear/net_socket/Net/Socket.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
