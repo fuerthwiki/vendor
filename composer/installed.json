@@ -129,20 +129,6 @@
             "yawik",
             "zend",
             "zikula"
-        ],
-        "funding": [
-            {
-                "url": "https://packagist.com",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/composer",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -206,20 +192,6 @@
             "semver",
             "validation",
             "versioning"
-        ],
-        "funding": [
-            {
-                "url": "https://packagist.com",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/composer",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -477,12 +449,6 @@
             "parsers",
             "seconds",
             "wikidata"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            }
         ]
     },
     {
@@ -609,43 +575,46 @@
     },
     {
         "name": "elasticsearch/elasticsearch",
-        "version": "v6.7.2",
-        "version_normalized": "6.7.2.0",
+        "version": "v6.8.0",
+        "version_normalized": "6.8.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/elastic/elasticsearch-php.git",
-            "reference": "9ba89f905ebf699e72dacffa410331c7fecc8255"
+            "reference": "a524a7d8e5f58fbed0aa87fabc460c48d18108aa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/9ba89f905ebf699e72dacffa410331c7fecc8255",
-            "reference": "9ba89f905ebf699e72dacffa410331c7fecc8255",
+            "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/a524a7d8e5f58fbed0aa87fabc460c48d18108aa",
+            "reference": "a524a7d8e5f58fbed0aa87fabc460c48d18108aa",
             "shasum": ""
         },
         "require": {
             "ext-json": ">=1.3.7",
-            "guzzlehttp/ringphp": "~1.0",
-            "php": "^7.0",
+            "ezimuel/ringphp": "^1.1.2",
+            "php": "^7.3 || ^8.0",
             "psr/log": "~1.0"
         },
         "require-dev": {
-            "cpliakas/git-wrapper": "^1.7 || ^2.1",
-            "doctrine/inflector": "^1.1",
+            "doctrine/inflector": "^1.3",
             "mockery/mockery": "^1.2",
-            "phpstan/phpstan-shim": "^0.9 || ^0.11",
-            "phpunit/phpunit": "^5.7 || ^6.5",
+            "phpstan/phpstan": "^0.12",
+            "phpunit/phpunit": "^9.3",
             "squizlabs/php_codesniffer": "^3.4",
-            "symfony/finder": "^2.8",
-            "symfony/yaml": "^2.8"
+            "symfony/finder": "~4.0",
+            "symfony/yaml": "~4.0",
+            "symplify/git-wrapper": "~9.0"
         },
         "suggest": {
             "ext-curl": "*",
             "monolog/monolog": "Allows for client-level logging and tracing"
         },
-        "time": "2019-07-19T14:48:24+00:00",
+        "time": "2021-03-01T18:54:48+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
+            "files": [
+                "src/autoload.php"
+            ],
             "psr-4": {
                 "Elasticsearch\\": "src/Elasticsearch/"
             }
@@ -668,6 +637,111 @@
             "elasticsearch",
             "search"
         ]
+    },
+    {
+        "name": "ezimuel/guzzlestreams",
+        "version": "3.0.1",
+        "version_normalized": "3.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ezimuel/guzzlestreams.git",
+            "reference": "abe3791d231167f14eb80d413420d1eab91163a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/abe3791d231167f14eb80d413420d1eab91163a8",
+            "reference": "abe3791d231167f14eb80d413420d1eab91163a8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2020-02-14T23:11:50+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Stream\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Fork of guzzle/streams (abandoned) to be used with elasticsearch-php",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "Guzzle",
+            "stream"
+        ]
+    },
+    {
+        "name": "ezimuel/ringphp",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ezimuel/ringphp.git",
+            "reference": "0b78f89d8e0bb9e380046c31adfa40347e9f663b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ezimuel/ringphp/zipball/0b78f89d8e0bb9e380046c31adfa40347e9f663b",
+            "reference": "0b78f89d8e0bb9e380046c31adfa40347e9f663b",
+            "shasum": ""
+        },
+        "require": {
+            "ezimuel/guzzlestreams": "^3.0.1",
+            "php": ">=5.4.0",
+            "react/promise": "~2.0"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "~4.0"
+        },
+        "suggest": {
+            "ext-curl": "Guzzle will use specific adapters if cURL is present"
+        },
+        "time": "2020-02-14T23:51:21+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Ring\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php"
     },
     {
         "name": "guzzlehttp/guzzle",
@@ -865,113 +939,6 @@
         ]
     },
     {
-        "name": "guzzlehttp/ringphp",
-        "version": "1.1.1",
-        "version_normalized": "1.1.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/guzzle/RingPHP.git",
-            "reference": "5e2a174052995663dd68e6b5ad838afd47dd615b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/5e2a174052995663dd68e6b5ad838afd47dd615b",
-            "reference": "5e2a174052995663dd68e6b5ad838afd47dd615b",
-            "shasum": ""
-        },
-        "require": {
-            "guzzlehttp/streams": "~3.0",
-            "php": ">=5.4.0",
-            "react/promise": "~2.0"
-        },
-        "require-dev": {
-            "ext-curl": "*",
-            "phpunit/phpunit": "~4.0"
-        },
-        "suggest": {
-            "ext-curl": "Guzzle will use specific adapters if cURL is present"
-        },
-        "time": "2018-07-31T13:22:33+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.1-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "GuzzleHttp\\Ring\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Michael Dowling",
-                "email": "mtdowling@gmail.com",
-                "homepage": "https://github.com/mtdowling"
-            }
-        ],
-        "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
-        "abandoned": true
-    },
-    {
-        "name": "guzzlehttp/streams",
-        "version": "3.0.0",
-        "version_normalized": "3.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/guzzle/streams.git",
-            "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/streams/zipball/47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
-            "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.4.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "~4.0"
-        },
-        "time": "2014-10-12T19:18:40+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "GuzzleHttp\\Stream\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Michael Dowling",
-                "email": "mtdowling@gmail.com",
-                "homepage": "https://github.com/mtdowling"
-            }
-        ],
-        "description": "Provides a simple abstraction over streams of data",
-        "homepage": "http://guzzlephp.org/",
-        "keywords": [
-            "Guzzle",
-            "stream"
-        ],
-        "abandoned": true
-    },
-    {
         "name": "jeroen/file-fetcher",
         "version": "6.0.0",
         "version_normalized": "6.0.0.0",
@@ -1109,16 +1076,6 @@
             "psr-16",
             "simple-cache",
             "simplecache"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://www.patreon.com/jeroendedauw",
-                "type": "patreon"
-            }
         ]
     },
     {
@@ -1231,17 +1188,7 @@
                 "role": "Developer"
             }
         ],
-        "description": "Simple and minimalistic Geocoder interface with some basic implementations",
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://www.patreon.com/jeroendedauw",
-                "type": "patreon"
-            }
-        ]
+        "description": "Simple and minimalistic Geocoder interface with some basic implementations"
     },
     {
         "name": "jmikola/geojson",
@@ -1501,16 +1448,6 @@
             "maps",
             "mediawiki",
             "osm"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://www.patreon.com/jeroendedauw",
-                "type": "patreon"
-            }
         ]
     },
     {
@@ -1899,16 +1836,6 @@
             "Semantic MediaWiki",
             "mediawiki",
             "wiki"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/kghbln",
-                "type": "github"
-            }
         ]
     },
     {
@@ -1999,24 +1926,6 @@
             "Semantic Result Formats",
             "mediawiki",
             "wiki"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/[user1",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/kghbln] # Replace with up to 4 GitHub Sponsors-enabled usernames e.g.",
-                "type": "github"
-            },
-            {
-                "url": "https://github.com/user2",
-                "type": "github"
-            }
         ]
     },
     {
@@ -2146,16 +2055,6 @@
             "Semantic MediaWiki",
             "mediawiki",
             "validator"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            },
-            {
-                "url": "https://www.patreon.com/jeroendedauw",
-                "type": "patreon"
-            }
         ]
     },
     {
@@ -2493,12 +2392,6 @@
         "keywords": [
             "messages",
             "reporter"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/JeroenDeDauw",
-                "type": "github"
-            }
         ]
     },
     {
@@ -3555,16 +3448,6 @@
             "linter",
             "parser",
             "validator"
-        ],
-        "funding": [
-            {
-                "url": "https://github.com/Seldaek",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/seld/jsonlint",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -3674,21 +3557,7 @@
             }
         ],
         "description": "Symfony CssSelector Component",
-        "homepage": "https://symfony.com",
-        "funding": [
-            {
-                "url": "https://symfony.com/sponsor",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/fabpot",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                "type": "tidelift"
-            }
-        ]
+        "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/polyfill-intl-idn",
@@ -3760,20 +3629,6 @@
             "polyfill",
             "portable",
             "shim"
-        ],
-        "funding": [
-            {
-                "url": "https://symfony.com/sponsor",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/fabpot",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -3843,20 +3698,6 @@
             "polyfill",
             "portable",
             "shim"
-        ],
-        "funding": [
-            {
-                "url": "https://symfony.com/sponsor",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/fabpot",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                "type": "tidelift"
-            }
         ]
     },
     {
@@ -3918,20 +3759,6 @@
             "polyfill",
             "portable",
             "shim"
-        ],
-        "funding": [
-            {
-                "url": "https://symfony.com/sponsor",
-                "type": "custom"
-            },
-            {
-                "url": "https://github.com/fabpot",
-                "type": "github"
-            },
-            {
-                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                "type": "tidelift"
-            }
         ]
     },
     {
