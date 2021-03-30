@@ -1,5 +1,7 @@
 <?php
 
+declare( strict_types = 1 );
+
 namespace ValueValidators\Tests;
 
 use PHPUnit\Framework\TestCase;
@@ -21,7 +23,7 @@ class DimensionValidatorTest extends TestCase {
 	 */
 	private $validator;
 
-	protected function setUp() {
+	protected function setUp(): void {
 		$this->validator = new DimensionValidator();
 	}
 

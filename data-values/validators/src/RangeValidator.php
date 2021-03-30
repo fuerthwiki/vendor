@@ -1,8 +1,11 @@
 <?php
 
+declare( strict_types = 1 );
+
 namespace ValueValidators;
 
 use Exception;
+use ValueValidators\PackagePrivate\ValueValidatorBase;
 
 /**
  * ValueValidator that validates if a numeric value is within a certain range.
@@ -12,7 +15,7 @@ use Exception;
  * @license GPL-2.0-or-later
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
-class RangeValidator extends ValueValidatorObject {
+class RangeValidator extends ValueValidatorBase {
 
 	/**
 	 * Lower bound of the range (included). Either a number or false, for no lower limit.
@@ -82,7 +85,7 @@ class RangeValidator extends ValueValidatorObject {
 	}
 
 	/**
-	 * @see ValueValidatorObject::doValidation
+	 * @see ValueValidatorBase::doValidation
 	 *
 	 * @since 0.1
 	 *
@@ -110,8 +113,8 @@ class RangeValidator extends ValueValidatorObject {
 	 * @return boolean
 	 */
 	protected function validateBounds( $value, $upperBound = null, $lowerBound = null ) {
-		$upperBound = is_null( $upperBound ) ? $this->upperBound : $upperBound;
-		$lowerBound = is_null( $lowerBound ) ? $this->lowerBound : $lowerBound;
+		$upperBound = $upperBound ?? $this->upperBound;
+		$lowerBound = $lowerBound ?? $this->lowerBound;
 
 		$smallEnough = $upperBound === false || $value <= $upperBound;
 		$bigEnough = $lowerBound === false || $value >= $lowerBound;
