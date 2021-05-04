@@ -14,6 +14,7 @@ class ComposerStaticInit_mediawiki_vendor
         '5a04c63399fef01344b45823e301d04d' => __DIR__ . '/..' . '/onoi/shared-resources/Resources.php',
         'cd9b6b6b76aed1304a64986142337d3a' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         'eccc0347283a01e62f5536bcf76b6e62' => __DIR__ . '/..' . '/wikimedia/at-ease/src/Wikimedia/Functions.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
@@ -63,6 +64,7 @@ class ComposerStaticInit_mediawiki_vendor
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Component\\CssSelector\\' => 30,
             'SimpleCache\\' => 12,
             'Shellbox\\' => 9,
@@ -242,6 +244,10 @@ class ComposerStaticInit_mediawiki_vendor
         'Tree\\' => 
         array (
             0 => __DIR__ . '/..' . '/nicmart/tree/src',
+        ),
+        'Symfony\\Polyfill\\Php80\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
         ),
         'Symfony\\Component\\CssSelector\\' => 
         array (
@@ -528,6 +534,7 @@ class ComposerStaticInit_mediawiki_vendor
     );
 
     public static $classMap = array (
+        'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'CLDRPluralRuleParser\\Converter' => __DIR__ . '/..' . '/wikimedia/cldr-plural-rule-parser/src/Converter.php',
         'CLDRPluralRuleParser\\Converter\\Expression' => __DIR__ . '/..' . '/wikimedia/cldr-plural-rule-parser/src/Converter/Expression.php',
         'CLDRPluralRuleParser\\Converter\\Fragment' => __DIR__ . '/..' . '/wikimedia/cldr-plural-rule-parser/src/Converter/Fragment.php',
@@ -601,6 +608,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Composer\\Installers\\MauticInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MauticInstaller.php',
         'Composer\\Installers\\MayaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MayaInstaller.php',
         'Composer\\Installers\\MediaWikiInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MediaWikiInstaller.php',
+        'Composer\\Installers\\MiaoxingInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MiaoxingInstaller.php',
         'Composer\\Installers\\MicroweberInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MicroweberInstaller.php',
         'Composer\\Installers\\ModxInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ModxInstaller.php',
         'Composer\\Installers\\MoodleInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MoodleInstaller.php',
@@ -636,12 +644,14 @@ class ComposerStaticInit_mediawiki_vendor
         'Composer\\Installers\\TYPO3CmsInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TYPO3CmsInstaller.php',
         'Composer\\Installers\\TYPO3FlowInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php',
         'Composer\\Installers\\TaoInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TaoInstaller.php',
+        'Composer\\Installers\\TastyIgniterInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TastyIgniterInstaller.php',
         'Composer\\Installers\\TheliaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TheliaInstaller.php',
         'Composer\\Installers\\TuskInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TuskInstaller.php',
         'Composer\\Installers\\UserFrostingInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/UserFrostingInstaller.php',
         'Composer\\Installers\\VanillaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/VanillaInstaller.php',
         'Composer\\Installers\\VgmcpInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/VgmcpInstaller.php',
         'Composer\\Installers\\WHMCSInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WHMCSInstaller.php',
+        'Composer\\Installers\\WinterInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WinterInstaller.php',
         'Composer\\Installers\\WolfCMSInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WolfCMSInstaller.php',
         'Composer\\Installers\\WordPressInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WordPressInstaller.php',
         'Composer\\Installers\\YawikInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/YawikInstaller.php',
@@ -1981,6 +1991,7 @@ class ComposerStaticInit_mediawiki_vendor
         'SESP\\PropertyAnnotators\\DispatchingPropertyAnnotator' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/PropertyAnnotators/DispatchingPropertyAnnotator.php',
         'SESP\\PropertyAnnotators\\ExifPropertyAnnotator' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/PropertyAnnotators/ExifPropertyAnnotator.php',
         'SESP\\PropertyAnnotators\\LocalPropertyAnnotator' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/PropertyAnnotators/LocalPropertyAnnotator.php',
+        'SESP\\PropertyAnnotators\\NamespacePropertyAnnotator' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/PropertyAnnotators/NamespacePropertyAnnotator.php',
         'SESP\\PropertyAnnotators\\NullPropertyAnnotator' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/PropertyAnnotators/NullPropertyAnnotator.php',
         'SESP\\PropertyAnnotators\\PageContributorsPropertyAnnotator' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/PropertyAnnotators/PageContributorsPropertyAnnotator.php',
         'SESP\\PropertyAnnotators\\PageIDPropertyAnnotator' => __DIR__ . '/../..' . '/extensions/SemanticExtraSpecialProperties/src/PropertyAnnotators/PageIDPropertyAnnotator.php',
@@ -3149,6 +3160,7 @@ class ComposerStaticInit_mediawiki_vendor
         'SplitEdge' => __DIR__ . '/../..' . '/extensions/SemanticResultFormats/formats/graphviz/SRF_Process.php',
         'SplitExclusiveOrEdge' => __DIR__ . '/../..' . '/extensions/SemanticResultFormats/formats/graphviz/SRF_Process.php',
         'SplitParallelEdge' => __DIR__ . '/../..' . '/extensions/SemanticResultFormats/formats/graphviz/SRF_Process.php',
+        'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\CssSelector\\CssSelectorConverter' => __DIR__ . '/..' . '/symfony/css-selector/CssSelectorConverter.php',
         'Symfony\\Component\\CssSelector\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/symfony/css-selector/Exception/ExceptionInterface.php',
         'Symfony\\Component\\CssSelector\\Exception\\ExpressionErrorException' => __DIR__ . '/..' . '/symfony/css-selector/Exception/ExpressionErrorException.php',
@@ -3197,6 +3209,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Symfony\\Component\\CssSelector\\XPath\\Translator' => __DIR__ . '/..' . '/symfony/css-selector/XPath/Translator.php',
         'Symfony\\Component\\CssSelector\\XPath\\TranslatorInterface' => __DIR__ . '/..' . '/symfony/css-selector/XPath/TranslatorInterface.php',
         'Symfony\\Component\\CssSelector\\XPath\\XPathExpr' => __DIR__ . '/..' . '/symfony/css-selector/XPath/XPathExpr.php',
+        'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
         'System' => __DIR__ . '/..' . '/pear/pear-core-minimal/src/System.php',
         'TextCat' => __DIR__ . '/..' . '/wikimedia/textcat/src/TextCat.php',
         'Tree\\Builder\\NodeBuilder' => __DIR__ . '/..' . '/nicmart/tree/src/Builder/NodeBuilder.php',
@@ -3208,9 +3221,11 @@ class ComposerStaticInit_mediawiki_vendor
         'Tree\\Visitor\\PreOrderVisitor' => __DIR__ . '/..' . '/nicmart/tree/src/Visitor/PreOrderVisitor.php',
         'Tree\\Visitor\\Visitor' => __DIR__ . '/..' . '/nicmart/tree/src/Visitor/Visitor.php',
         'Tree\\Visitor\\YieldVisitor' => __DIR__ . '/..' . '/nicmart/tree/src/Visitor/YieldVisitor.php',
+        'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'UtfNormal\\Constants' => __DIR__ . '/..' . '/wikimedia/utfnormal/src/Constants.php',
         'UtfNormal\\Utils' => __DIR__ . '/..' . '/wikimedia/utfnormal/src/Utils.php',
         'UtfNormal\\Validator' => __DIR__ . '/..' . '/wikimedia/utfnormal/src/Validator.php',
+        'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
         'ValueFormatters\\Exceptions\\MismatchingDataValueTypeException' => __DIR__ . '/..' . '/data-values/common/src/ValueFormatters/Exceptions/MismatchingDataValueTypeException.php',
         'ValueFormatters\\FormatterOptions' => __DIR__ . '/..' . '/data-values/interfaces/src/ValueFormatters/FormatterOptions.php',
         'ValueFormatters\\FormattingException' => __DIR__ . '/..' . '/data-values/interfaces/src/ValueFormatters/FormattingException.php',

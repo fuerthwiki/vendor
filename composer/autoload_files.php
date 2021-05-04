@@ -13,6 +13,7 @@ return array(
     '5a04c63399fef01344b45823e301d04d' => $vendorDir . '/onoi/shared-resources/Resources.php',
     'cd9b6b6b76aed1304a64986142337d3a' => $baseDir . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
     '7b11c4dc42b3b3023073cb14e519683c' => $vendorDir . '/ralouphie/getallheaders/src/getallheaders.php',
+    'a4a119a56e50fbb293281d9a48007e0e' => $vendorDir . '/symfony/polyfill-php80/bootstrap.php',
     'eccc0347283a01e62f5536bcf76b6e62' => $vendorDir . '/wikimedia/at-ease/src/Wikimedia/Functions.php',
     'a0edc8309cc5e1d60e3047b5df6b7052' => $vendorDir . '/guzzlehttp/psr7/src/functions_include.php',
     'c964ee0ededf28c96ebd9db5099ef910' => $vendorDir . '/guzzlehttp/promises/src/functions_include.php',

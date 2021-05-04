@@ -26,6 +26,7 @@ return array(
     'ValueParsers\\' => array($vendorDir . '/data-values/common/src/ValueParsers', $vendorDir . '/data-values/interfaces/src/ValueParsers'),
     'ValueFormatters\\' => array($vendorDir . '/data-values/common/src/ValueFormatters', $vendorDir . '/data-values/interfaces/src/ValueFormatters'),
     'Tree\\' => array($vendorDir . '/nicmart/tree/src'),
+    'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'SimpleCache\\' => array($vendorDir . '/jeroen/simple-cache/src'),
     'Shellbox\\' => array($vendorDir . '/wikimedia/shellbox/src'),

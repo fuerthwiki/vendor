@@ -1,17 +1,17 @@
 [
     {
         "name": "composer/installers",
-        "version": "v1.10.0",
-        "version_normalized": "1.10.0.0",
+        "version": "v1.11.0",
+        "version_normalized": "1.11.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/composer/installers.git",
-            "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d"
+            "reference": "ae03311f45dfe194412081526be2e003960df74b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/composer/installers/zipball/1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
-            "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+            "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
+            "reference": "ae03311f45dfe194412081526be2e003960df74b",
             "shasum": ""
         },
         "require": {
@@ -29,7 +29,7 @@
             "symfony/phpunit-bridge": "^4.2 || ^5",
             "symfony/process": "^2.3"
         },
-        "time": "2021-01-14T11:07:16+00:00",
+        "time": "2021-04-28T06:42:17+00:00",
         "type": "composer-plugin",
         "extra": {
             "class": "Composer\\Installers\\Plugin",
@@ -107,6 +107,7 @@
             "majima",
             "mako",
             "mediawiki",
+            "miaoxing",
             "modulework",
             "modx",
             "moodle",
@@ -124,6 +125,7 @@
             "sydes",
             "sylius",
             "symfony",
+            "tastyigniter",
             "typo3",
             "wordpress",
             "yawik",
@@ -365,34 +367,35 @@
     },
     {
         "name": "data-values/geo",
-        "version": "4.2.2",
-        "version_normalized": "4.2.2.0",
+        "version": "4.3.0",
+        "version_normalized": "4.3.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/DataValues/Geo.git",
-            "reference": "8ccadb155bcd83acf4940b7e80f9c9b7321a44e7"
+            "reference": "58fe0a1d027fce6feddbbe97d04678c6b2e40f17"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/DataValues/Geo/zipball/8ccadb155bcd83acf4940b7e80f9c9b7321a44e7",
-            "reference": "8ccadb155bcd83acf4940b7e80f9c9b7321a44e7",
+            "url": "https://api.github.com/repos/DataValues/Geo/zipball/58fe0a1d027fce6feddbbe97d04678c6b2e40f17",
+            "reference": "58fe0a1d027fce6feddbbe97d04678c6b2e40f17",
             "shasum": ""
         },
         "require": {
-            "data-values/data-values": "~3.0|~2.0|~1.0|~0.1",
+            "data-values/data-values": "^3.0|^2.0|^1.0|~0.1",
             "data-values/interfaces": "^1.0.0|^0.2.0",
-            "php": ">=7.1"
+            "php": ">=7.3",
+            "symfony/polyfill-php80": "^1.18.1"
         },
         "require-dev": {
-            "jeroen/nyancat-phpunit-resultprinter": "~2.2",
-            "ockcyp/covers-validator": "~1.0",
-            "phpmd/phpmd": "^2.6.1",
-            "phpstan/phpstan": "~0.11.0",
-            "phpunit/phpunit": "~7.1",
-            "vimeo/psalm": "^3.7",
-            "wikibase/wikibase-codesniffer": "^0.5.0"
+            "maglnet/composer-require-checker": "^3.0|^2.0",
+            "mediawiki/mediawiki-codesniffer": "^34 || ^35",
+            "ockcyp/covers-validator": "^1.3.3",
+            "phpmd/phpmd": "^2.9.1",
+            "phpstan/phpstan": "^0.12.68",
+            "phpunit/phpunit": "^9.4.1",
+            "vimeo/psalm": "^4.4.1"
         },
-        "time": "2021-01-20T14:11:50+00:00",
+        "time": "2021-04-21T11:29:29+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -867,17 +870,17 @@
     },
     {
         "name": "guzzlehttp/psr7",
-        "version": "1.8.1",
-        "version_normalized": "1.8.1.0",
+        "version": "1.8.2",
+        "version_normalized": "1.8.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/guzzle/psr7.git",
-            "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1"
+            "reference": "dc960a912984efb74d0a90222870c72c87f10c91"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/psr7/zipball/35ea11d335fd638b5882ff1725228b3d35496ab1",
-            "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/dc960a912984efb74d0a90222870c72c87f10c91",
+            "reference": "dc960a912984efb74d0a90222870c72c87f10c91",
             "shasum": ""
         },
         "require": {
@@ -895,7 +898,7 @@
         "suggest": {
             "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
         },
-        "time": "2021-03-21T16:25:00+00:00",
+        "time": "2021-04-26T09:17:50+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3762,6 +3765,74 @@
         ],
         "description": "Symfony CssSelector Component",
         "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/polyfill-php80",
+        "version": "v1.22.1",
+        "version_normalized": "1.22.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php80.git",
+            "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+            "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "time": "2021-01-07T16:49:33+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.22-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Php80\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ion Bazan",
+                "email": "ion.bazan@gmail.com"
+            },
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
     },
     {
         "name": "wikimedia/assert",
