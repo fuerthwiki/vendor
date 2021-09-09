@@ -37,6 +37,7 @@ class ComposerStaticInit_mediawiki_vendor
         array (
             'Wikimedia\\Zest\\' => 15,
             'Wikimedia\\XMPReader\\' => 20,
+            'Wikimedia\\WikiPEG\\' => 18,
             'Wikimedia\\Timestamp\\' => 20,
             'Wikimedia\\Services\\' => 19,
             'Wikimedia\\RequestTimeout\\' => 25,
@@ -49,7 +50,6 @@ class ComposerStaticInit_mediawiki_vendor
             'Wikimedia\\AtEase\\' => 17,
             'Wikimedia\\Assert\\' => 17,
             'Wikimedia\\' => 10,
-            'WikiPEG\\Tests\\' => 14,
             'WikiPEG\\' => 8,
         ),
         'V' => 
@@ -165,6 +165,10 @@ class ComposerStaticInit_mediawiki_vendor
         array (
             0 => __DIR__ . '/..' . '/wikimedia/xmp-reader/src',
         ),
+        'Wikimedia\\WikiPEG\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wikimedia/wikipeg/src',
+        ),
         'Wikimedia\\Timestamp\\' => 
         array (
             0 => __DIR__ . '/..' . '/wikimedia/timestamp/src',
@@ -217,10 +221,6 @@ class ComposerStaticInit_mediawiki_vendor
             3 => __DIR__ . '/..' . '/wikimedia/scoped-callback/src',
             4 => __DIR__ . '/..' . '/wikimedia/wait-condition-loop/src',
             5 => __DIR__ . '/..' . '/wikimedia/wrappedstring/src',
-        ),
-        'WikiPEG\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/wikimedia/wikipeg/tests/php',
         ),
         'WikiPEG\\' => 
         array (
@@ -762,7 +762,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Elasticsearch\\Endpoints\\Cat\\Help' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Cat/Help.php',
         'Elasticsearch\\Endpoints\\Cat\\Indices' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Cat/Indices.php',
         'Elasticsearch\\Endpoints\\Cat\\Master' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Cat/Master.php',
-        'Elasticsearch\\Endpoints\\Cat\\Nodeattrs' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Cat/Nodeattrs.php',
+        'Elasticsearch\\Endpoints\\Cat\\NodeAttrs' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Cat/NodeAttrs.php',
         'Elasticsearch\\Endpoints\\Cat\\Nodes' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Cat/Nodes.php',
         'Elasticsearch\\Endpoints\\Cat\\PendingTasks' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Cat/PendingTasks.php',
         'Elasticsearch\\Endpoints\\Cat\\Plugins' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Cat/Plugins.php',
@@ -833,7 +833,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Elasticsearch\\Endpoints\\Indices\\ExistsType' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Indices/ExistsType.php',
         'Elasticsearch\\Endpoints\\Indices\\Flush' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Indices/Flush.php',
         'Elasticsearch\\Endpoints\\Indices\\FlushSynced' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Indices/FlushSynced.php',
-        'Elasticsearch\\Endpoints\\Indices\\Forcemerge' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Indices/Forcemerge.php',
+        'Elasticsearch\\Endpoints\\Indices\\ForceMerge' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Indices/ForceMerge.php',
         'Elasticsearch\\Endpoints\\Indices\\Freeze' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Indices/Freeze.php',
         'Elasticsearch\\Endpoints\\Indices\\Get' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Indices/Get.php',
         'Elasticsearch\\Endpoints\\Indices\\GetAlias' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Indices/GetAlias.php',
@@ -872,6 +872,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Elasticsearch\\Endpoints\\License\\Post' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/License/Post.php',
         'Elasticsearch\\Endpoints\\License\\PostStartBasic' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/License/PostStartBasic.php',
         'Elasticsearch\\Endpoints\\License\\PostStartTrial' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/License/PostStartTrial.php',
+        'Elasticsearch\\Endpoints\\MTermVectors' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/MTermVectors.php',
         'Elasticsearch\\Endpoints\\Mget' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Mget.php',
         'Elasticsearch\\Endpoints\\Migration\\Deprecations' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Migration/Deprecations.php',
         'Elasticsearch\\Endpoints\\Migration\\GetAssistance' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Migration/GetAssistance.php',
@@ -925,7 +926,6 @@ class ComposerStaticInit_mediawiki_vendor
         'Elasticsearch\\Endpoints\\Monitoring\\Bulk' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Monitoring/Bulk.php',
         'Elasticsearch\\Endpoints\\Msearch' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Msearch.php',
         'Elasticsearch\\Endpoints\\MsearchTemplate' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/MsearchTemplate.php',
-        'Elasticsearch\\Endpoints\\Mtermvectors' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Mtermvectors.php',
         'Elasticsearch\\Endpoints\\Nodes\\HotThreads' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Nodes/HotThreads.php',
         'Elasticsearch\\Endpoints\\Nodes\\Info' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Nodes/Info.php',
         'Elasticsearch\\Endpoints\\Nodes\\ReloadSecureSettings' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Nodes/ReloadSecureSettings.php',
@@ -991,7 +991,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Elasticsearch\\Endpoints\\Tasks\\Cancel' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Tasks/Cancel.php',
         'Elasticsearch\\Endpoints\\Tasks\\Get' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Tasks/Get.php',
         'Elasticsearch\\Endpoints\\Tasks\\ListTasks' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Tasks/ListTasks.php',
-        'Elasticsearch\\Endpoints\\Termvectors' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Termvectors.php',
+        'Elasticsearch\\Endpoints\\TermVectors' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/TermVectors.php',
         'Elasticsearch\\Endpoints\\Update' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/Update.php',
         'Elasticsearch\\Endpoints\\UpdateByQuery' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/UpdateByQuery.php',
         'Elasticsearch\\Endpoints\\UpdateByQueryRethrottle' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/Elasticsearch/Endpoints/UpdateByQueryRethrottle.php',
@@ -3254,14 +3254,6 @@ class ComposerStaticInit_mediawiki_vendor
         'ValueValidators\\StringValidator' => __DIR__ . '/..' . '/data-values/validators/src/StringValidator.php',
         'ValueValidators\\TitleValidator' => __DIR__ . '/..' . '/data-values/validators/src/TitleValidator.php',
         'ValueValidators\\ValueValidator' => __DIR__ . '/..' . '/data-values/interfaces/src/ValueValidators/ValueValidator.php',
-        'WikiPEG\\DefaultTracer' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/DefaultTracer.php',
-        'WikiPEG\\Expectation' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Expectation.php',
-        'WikiPEG\\InternalError' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/InternalError.php',
-        'WikiPEG\\Location' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Location.php',
-        'WikiPEG\\LocationRange' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/LocationRange.php',
-        'WikiPEG\\PEGParserBase' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/PEGParserBase.php',
-        'WikiPEG\\SyntaxError' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/SyntaxError.php',
-        'WikiPEG\\Tracer' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Tracer.php',
         'Wikimedia\\Assert\\Assert' => __DIR__ . '/..' . '/wikimedia/assert/src/Assert.php',
         'Wikimedia\\Assert\\AssertionException' => __DIR__ . '/..' . '/wikimedia/assert/src/AssertionException.php',
         'Wikimedia\\Assert\\InvariantException' => __DIR__ . '/..' . '/wikimedia/assert/src/InvariantException.php',
@@ -3565,6 +3557,14 @@ class ComposerStaticInit_mediawiki_vendor
         'Wikimedia\\Timestamp\\ConvertibleTimestamp' => __DIR__ . '/..' . '/wikimedia/timestamp/src/ConvertibleTimestamp.php',
         'Wikimedia\\Timestamp\\TimestampException' => __DIR__ . '/..' . '/wikimedia/timestamp/src/TimestampException.php',
         'Wikimedia\\WaitConditionLoop' => __DIR__ . '/..' . '/wikimedia/wait-condition-loop/src/WaitConditionLoop.php',
+        'Wikimedia\\WikiPEG\\DefaultTracer' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/DefaultTracer.php',
+        'Wikimedia\\WikiPEG\\Expectation' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Expectation.php',
+        'Wikimedia\\WikiPEG\\InternalError' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/InternalError.php',
+        'Wikimedia\\WikiPEG\\Location' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Location.php',
+        'Wikimedia\\WikiPEG\\LocationRange' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/LocationRange.php',
+        'Wikimedia\\WikiPEG\\PEGParserBase' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/PEGParserBase.php',
+        'Wikimedia\\WikiPEG\\SyntaxError' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/SyntaxError.php',
+        'Wikimedia\\WikiPEG\\Tracer' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Tracer.php',
         'Wikimedia\\WrappedString' => __DIR__ . '/..' . '/wikimedia/wrappedstring/src/WrappedString.php',
         'Wikimedia\\WrappedStringList' => __DIR__ . '/..' . '/wikimedia/wrappedstring/src/WrappedStringList.php',
         'Wikimedia\\XMPReader\\Info' => __DIR__ . '/..' . '/wikimedia/xmp-reader/src/Info.php',

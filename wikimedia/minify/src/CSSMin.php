@@ -260,7 +260,8 @@ class CSSMin {
 
 		// Guard against trailing slashes, because "some/remote/../foo.png"
 		// resolves to "some/remote/foo.png" on (some?) clients (T29052).
-		$remote = rtrim( $remote, '/' );
+		// But, don't turn "/" into "" since that is invalid as base URL (T282280).
+		$remote = $remote === '/' ? $remote : rtrim( $remote, '/' );
 
 		// Disallow U+007F DELETE, which is illegal anyway, and which
 		// we use for comment placeholders.
@@ -395,7 +396,7 @@ class CSSMin {
 	 * @param string $url
 	 * @return string
 	 */
-	private static function resolveUrl( string $base, string $url ) : string {
+	private static function resolveUrl( string $base, string $url ): string {
 		// Net_URL2::resolve() doesn't allow for resolving against server-less URLs.
 		// We need this as for MediaWiki/ResourceLoader, the remote base path may either
 		// be separate (e.g. a separate domain), or simply local (like "/w"). In the
