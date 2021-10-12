@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Wikimedia\\Zest\\' => array($vendorDir . '/wikimedia/zest-css/src'),
     'Wikimedia\\XMPReader\\' => array($vendorDir . '/wikimedia/xmp-reader/src'),
+    'Wikimedia\\WikiPEG\\' => array($vendorDir . '/wikimedia/wikipeg/src'),
     'Wikimedia\\Timestamp\\' => array($vendorDir . '/wikimedia/timestamp/src'),
     'Wikimedia\\Services\\' => array($vendorDir . '/wikimedia/services/src'),
     'Wikimedia\\Purtle\\Tests\\' => array($vendorDir . '/wikimedia/purtle/tests/phpunit'),
@@ -19,7 +20,6 @@ return array(
     'Wikimedia\\AtEase\\' => array($vendorDir . '/wikimedia/at-ease/src/Wikimedia/AtEase'),
     'Wikimedia\\Assert\\' => array($vendorDir . '/wikimedia/assert/src'),
     'Wikimedia\\' => array($vendorDir . '/wikimedia/ip-set/src', $vendorDir . '/wikimedia/ip-utils/src', $vendorDir . '/wikimedia/object-factory/src', $vendorDir . '/wikimedia/scoped-callback/src', $vendorDir . '/wikimedia/wrappedstring/src'),
-    'WikiPEG\\Tests\\' => array($vendorDir . '/wikimedia/wikipeg/tests/php'),
     'WikiPEG\\' => array($vendorDir . '/wikimedia/wikipeg/src'),
     'ValueValidators\\' => array($vendorDir . '/data-values/interfaces/src/ValueValidators', $vendorDir . '/data-values/validators/src'),
     'ValueParsers\\' => array($vendorDir . '/data-values/common/src/ValueParsers', $vendorDir . '/data-values/interfaces/src/ValueParsers'),
