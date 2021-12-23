@@ -4,7 +4,10 @@
 		"classmap-authoritative": true,
 		"optimize-autoloader": true,
 		"prepend-autoloader": false,
-		"vendor-dir": "."
+		"vendor-dir": ".",
+		"allow-plugins": {
+			"wikimedia/composer-merge-plugin": true
+		}
 	},
 	"prefer-stable": true,
 	"require": {
