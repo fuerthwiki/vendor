@@ -63,6 +63,10 @@ class ComposerStaticInit_mediawiki_vendor
         array (
             'LightnCandy\\' => 12,
         ),
+        'H' => 
+        array (
+            'HtmlFormatter\\' => 14,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -180,6 +184,10 @@ class ComposerStaticInit_mediawiki_vendor
         'LightnCandy\\' => 
         array (
             0 => __DIR__ . '/..' . '/zordius/lightncandy/src',
+        ),
+        'HtmlFormatter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wikimedia/html-formatter/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (

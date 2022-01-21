@@ -30,6 +30,7 @@ return array(
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Pleo\\BloomFilter\\' => array($vendorDir . '/pleonasm/bloom-filter/src'),
     'LightnCandy\\' => array($vendorDir . '/zordius/lightncandy/src'),
+    'HtmlFormatter\\' => array($vendorDir . '/wikimedia/html-formatter/src'),
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),

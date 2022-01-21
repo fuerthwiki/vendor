@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../',
         'aliases' => array(),
-        'reference' => 'd9092c70c0f1582a278216c973a2f17f5a7f202b',
+        'reference' => '94b3b33308b7799105537f62c29fac69f8922856',
         'name' => '__root__',
         'dev' => false,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../',
             'aliases' => array(),
-            'reference' => 'd9092c70c0f1582a278216c973a2f17f5a7f202b',
+            'reference' => '94b3b33308b7799105537f62c29fac69f8922856',
             'dev_requirement' => false,
         ),
         'christian-riesen/base32' => array(
@@ -320,12 +320,12 @@
             'dev_requirement' => false,
         ),
         'wikimedia/html-formatter' => array(
-            'pretty_version' => '1.0.2',
-            'version' => '1.0.2.0',
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../wikimedia/html-formatter',
             'aliases' => array(),
-            'reference' => 'd6241e74d8091cf1fad91a764da5e1ba5f46e785',
+            'reference' => '3abeb56b30f436a486735ca53f6af0ba6367e4cf',
             'dev_requirement' => false,
         ),
         'wikimedia/ip-set' => array(
