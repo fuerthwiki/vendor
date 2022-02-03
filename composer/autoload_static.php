@@ -122,6 +122,10 @@ class ComposerStaticInit_mediawiki_vendor
             'JsonSchema\\' => 11,
             'Jeroen\\SimpleGeocoder\\' => 22,
         ),
+        'H' => 
+        array (
+            'HtmlFormatter\\' => 14,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Stream\\' => 18,
@@ -386,6 +390,10 @@ class ComposerStaticInit_mediawiki_vendor
         'Jeroen\\SimpleGeocoder\\' => 
         array (
             0 => __DIR__ . '/..' . '/jeroen/simple-geocoder/src',
+        ),
+        'HtmlFormatter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wikimedia/html-formatter/src',
         ),
         'GuzzleHttp\\Stream\\' => 
         array (

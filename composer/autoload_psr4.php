@@ -62,6 +62,7 @@ return array(
     'LightnCandy\\' => array($vendorDir . '/zordius/lightncandy/src'),
     'JsonSchema\\' => array($vendorDir . '/justinrainbow/json-schema/src/JsonSchema'),
     'Jeroen\\SimpleGeocoder\\' => array($vendorDir . '/jeroen/simple-geocoder/src'),
+    'HtmlFormatter\\' => array($vendorDir . '/wikimedia/html-formatter/src'),
     'GuzzleHttp\\Stream\\' => array($vendorDir . '/ezimuel/guzzlestreams/src'),
     'GuzzleHttp\\Ring\\' => array($vendorDir . '/ezimuel/ringphp/src'),
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),

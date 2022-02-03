@@ -1297,17 +1297,17 @@
     },
     {
         "name": "jmikola/geojson",
-        "version": "1.0.2",
-        "version_normalized": "1.0.2.0",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/jmikola/geojson.git",
-            "reference": "6ec3016cc0215667b7775f6ead7bd0337ad66eee"
+            "reference": "f5b122e15c804fabc5881da214c57d52ea0c5715"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/jmikola/geojson/zipball/6ec3016cc0215667b7775f6ead7bd0337ad66eee",
-            "reference": "6ec3016cc0215667b7775f6ead7bd0337ad66eee",
+            "url": "https://api.github.com/repos/jmikola/geojson/zipball/f5b122e15c804fabc5881da214c57d52ea0c5715",
+            "reference": "f5b122e15c804fabc5881da214c57d52ea0c5715",
             "shasum": ""
         },
         "require": {
@@ -1316,7 +1316,7 @@
         "require-dev": {
             "phpunit/phpunit": "~3.7"
         },
-        "time": "2015-09-27T15:35:21+00:00",
+        "time": "2022-01-21T04:20:33+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1725,30 +1725,30 @@
     },
     {
         "name": "mediawiki/semantic-compound-queries",
-        "version": "2.1.0",
-        "version_normalized": "2.1.0.0",
+        "version": "2.2.0",
+        "version_normalized": "2.2.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/SemanticMediaWiki/SemanticCompoundQueries.git",
-            "reference": "75e8b383b20486809801432133cc9d57bd0a0306"
+            "reference": "eeb514393fdf2e80ae7084839d8803ee32ae3da4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticCompoundQueries/zipball/75e8b383b20486809801432133cc9d57bd0a0306",
-            "reference": "75e8b383b20486809801432133cc9d57bd0a0306",
+            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticCompoundQueries/zipball/eeb514393fdf2e80ae7084839d8803ee32ae3da4",
+            "reference": "eeb514393fdf2e80ae7084839d8803ee32ae3da4",
             "shasum": ""
         },
         "require": {
             "composer/installers": "1.*,>=1.0.1",
-            "mediawiki/semantic-media-wiki": "~3.0",
-            "php": ">=7.0"
+            "mediawiki/semantic-media-wiki": "~3.0|~4.0",
+            "php": ">=7.3"
         },
         "require-dev": {
             "mediawiki/semantic-media-wiki": "@dev",
             "phpmd/phpmd": "~2.1",
             "squizlabs/php_codesniffer": "~2.1"
         },
-        "time": "2019-08-18T16:34:56+00:00",
+        "time": "2022-01-20T17:43:20+00:00",
         "type": "mediawiki-extension",
         "extra": {
             "branch-alias": {
@@ -2035,34 +2035,34 @@
     },
     {
         "name": "mediawiki/semantic-scribunto",
-        "version": "2.1.0",
-        "version_normalized": "2.1.0.0",
+        "version": "2.2.0",
+        "version_normalized": "2.2.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/SemanticMediaWiki/SemanticScribunto.git",
-            "reference": "2d318577fa484d55de74414ab911443531c08f73"
+            "reference": "1c616a4c4da443b3433000d6870bb92c184236fa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticScribunto/zipball/2d318577fa484d55de74414ab911443531c08f73",
-            "reference": "2d318577fa484d55de74414ab911443531c08f73",
+            "url": "https://api.github.com/repos/SemanticMediaWiki/SemanticScribunto/zipball/1c616a4c4da443b3433000d6870bb92c184236fa",
+            "reference": "1c616a4c4da443b3433000d6870bb92c184236fa",
             "shasum": ""
         },
         "require": {
             "composer/installers": "1.*,>=1.0.1",
-            "mediawiki/semantic-media-wiki": "~3.0",
-            "php": ">=7.0"
+            "mediawiki/semantic-media-wiki": "~3.0|~4.0",
+            "php": ">=7.3"
         },
         "require-dev": {
             "mediawiki/semantic-media-wiki": "@dev",
             "phpmd/phpmd": "~2.1",
             "squizlabs/php_codesniffer": "~2.1"
         },
-        "time": "2019-08-18T16:48:53+00:00",
+        "time": "2022-01-19T21:48:47+00:00",
         "type": "mediawiki-extension",
         "extra": {
             "branch-alias": {
-                "dev-master": "2.1.x-dev"
+                "dev-master": "2.2.x-dev"
             }
         },
         "installation-source": "dist",
@@ -3687,17 +3687,17 @@
     },
     {
         "name": "symfony/polyfill-intl-idn",
-        "version": "v1.23.0",
-        "version_normalized": "1.23.0.0",
+        "version": "v1.24.0",
+        "version_normalized": "1.24.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-intl-idn.git",
-            "reference": "65bd267525e82759e7d8c4e8ceea44f398838e65"
+            "reference": "749045c69efb97c70d25d7463abba812e91f3a44"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/65bd267525e82759e7d8c4e8ceea44f398838e65",
-            "reference": "65bd267525e82759e7d8c4e8ceea44f398838e65",
+            "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/749045c69efb97c70d25d7463abba812e91f3a44",
+            "reference": "749045c69efb97c70d25d7463abba812e91f3a44",
             "shasum": ""
         },
         "require": {
@@ -3708,7 +3708,7 @@
         "suggest": {
             "ext-intl": "For best performance"
         },
-        "time": "2021-05-27T09:27:20+00:00",
+        "time": "2021-09-14T14:02:44+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3773,8 +3773,8 @@
     },
     {
         "name": "symfony/polyfill-intl-normalizer",
-        "version": "v1.23.0",
-        "version_normalized": "1.23.0.0",
+        "version": "v1.24.0",
+        "version_normalized": "1.24.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -3856,8 +3856,8 @@
     },
     {
         "name": "symfony/polyfill-php72",
-        "version": "v1.23.0",
-        "version_normalized": "1.23.0.0",
+        "version": "v1.24.0",
+        "version_normalized": "1.24.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-php72.git",
@@ -4391,37 +4391,40 @@
     },
     {
         "name": "wikimedia/html-formatter",
-        "version": "1.0.2",
-        "version_normalized": "1.0.2.0",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/wikimedia/html-formatter.git",
-            "reference": "d6241e74d8091cf1fad91a764da5e1ba5f46e785"
+            "reference": "3abeb56b30f436a486735ca53f6af0ba6367e4cf"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/wikimedia/html-formatter/zipball/d6241e74d8091cf1fad91a764da5e1ba5f46e785",
-            "reference": "d6241e74d8091cf1fad91a764da5e1ba5f46e785",
+            "url": "https://api.github.com/repos/wikimedia/html-formatter/zipball/3abeb56b30f436a486735ca53f6af0ba6367e4cf",
+            "reference": "3abeb56b30f436a486735ca53f6af0ba6367e4cf",
             "shasum": ""
         },
         "require": {
+            "ext-dom": "*",
+            "ext-libxml": "*",
             "ext-mbstring": "*",
-            "php": ">=5.5"
+            "php": ">=7.2.9"
         },
         "require-dev": {
-            "jakub-onderka/php-console-highlighter": "0.3.2",
-            "jakub-onderka/php-parallel-lint": "1.0.0",
-            "mediawiki/mediawiki-codesniffer": "18.0.0",
-            "mediawiki/minus-x": "0.3.1",
-            "phpunit/phpunit": "4.8.36 || ^6.5"
+            "mediawiki/mediawiki-codesniffer": "34.0.0",
+            "mediawiki/minus-x": "1.1.0",
+            "ockcyp/covers-validator": "1.3.1",
+            "php-parallel-lint/php-console-highlighter": "0.5.0",
+            "php-parallel-lint/php-parallel-lint": "1.2.0",
+            "phpunit/phpunit": "^8.5"
         },
-        "time": "2018-04-14T10:06:56+00:00",
+        "time": "2021-01-09T04:31:34+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
-            "classmap": [
-                "src/"
-            ]
+            "psr-4": {
+                "HtmlFormatter\\": "src/"
+            }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
@@ -4433,10 +4436,7 @@
             }
         ],
         "description": "Performs transformations of HTML by wrapping around libxml2 and working around its countless bugs.",
-        "homepage": "https://www.mediawiki.org/wiki/HtmlFormatter",
-        "support": {
-            "source": "https://github.com/wikimedia/html-formatter/tree/1.0.2"
-        }
+        "homepage": "https://www.mediawiki.org/wiki/HtmlFormatter"
     },
     {
         "name": "wikimedia/ip-set",
@@ -5524,17 +5524,17 @@
     },
     {
         "name": "willdurand/geocoder",
-        "version": "4.4.0",
-        "version_normalized": "4.4.0.0",
+        "version": "4.5.0",
+        "version_normalized": "4.5.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/geocoder-php/php-common.git",
-            "reference": "3e86f5b10ab0cef1cf03f979fe8e34b6476daff0"
+            "reference": "b9a27dfbc06d012f4ff52b890fe52789e4978769"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/3e86f5b10ab0cef1cf03f979fe8e34b6476daff0",
-            "reference": "3e86f5b10ab0cef1cf03f979fe8e34b6476daff0",
+            "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/b9a27dfbc06d012f4ff52b890fe52789e4978769",
+            "reference": "b9a27dfbc06d012f4ff52b890fe52789e4978769",
             "shasum": ""
         },
         "require": {
@@ -5548,7 +5548,7 @@
         "suggest": {
             "symfony/stopwatch": "If you want to use the TimedGeocoder"
         },
-        "time": "2020-12-21T09:30:01+00:00",
+        "time": "2022-01-07T14:44:30+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
