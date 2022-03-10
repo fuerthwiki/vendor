@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../',
         'aliases' => array(),
-        'reference' => '2523c689a74ea074fb54323f427cb4e57fe359b2',
+        'reference' => '41b71a783eb3c4c2815b03f8d8d77268051fb61c',
         'name' => '__root__',
         'dev' => false,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../',
             'aliases' => array(),
-            'reference' => '2523c689a74ea074fb54323f427cb4e57fe359b2',
+            'reference' => '41b71a783eb3c4c2815b03f8d8d77268051fb61c',
             'dev_requirement' => false,
         ),
         'christian-riesen/base32' => array(
@@ -356,12 +356,12 @@
             'dev_requirement' => false,
         ),
         'wikimedia/object-factory' => array(
-            'pretty_version' => 'v2.1.0',
-            'version' => '2.1.0.0',
+            'pretty_version' => 'v2.2.0',
+            'version' => '2.2.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../wikimedia/object-factory',
             'aliases' => array(),
-            'reference' => '863aee60c8f9d964870b1a119d5d9e904233e1aa',
+            'reference' => 'd2e8cba4c8d98c29f6dd2f93cf19b0792dd83d42',
             'dev_requirement' => false,
         ),
         'wikimedia/parsoid' => array(
