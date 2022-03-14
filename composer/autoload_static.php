@@ -3094,6 +3094,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Wikimedia\\IPSet' => __DIR__ . '/..' . '/wikimedia/ip-set/src/IPSet.php',
         'Wikimedia\\IPUtils' => __DIR__ . '/..' . '/wikimedia/ip-utils/src/IPUtils.php',
         'Wikimedia\\ObjectFactory' => __DIR__ . '/..' . '/wikimedia/object-factory/src/ObjectFactory.php',
+        'Wikimedia\\ObjectFactory\\ObjectFactory' => __DIR__ . '/..' . '/wikimedia/object-factory/src/ObjectFactory/ObjectFactory.php',
         'Wikimedia\\PSquare' => __DIR__ . '/..' . '/wikimedia/running-stat/src/Wikimedia/PSquare.php',
         'Wikimedia\\Parsoid\\Config\\Api\\ApiHelper' => __DIR__ . '/..' . '/wikimedia/parsoid/src/Config/Api/ApiHelper.php',
         'Wikimedia\\Parsoid\\Config\\Api\\DataAccess' => __DIR__ . '/..' . '/wikimedia/parsoid/src/Config/Api/DataAccess.php',

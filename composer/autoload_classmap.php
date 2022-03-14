@@ -2573,6 +2573,7 @@ return array(
     'Wikimedia\\IPSet' => $vendorDir . '/wikimedia/ip-set/src/IPSet.php',
     'Wikimedia\\IPUtils' => $vendorDir . '/wikimedia/ip-utils/src/IPUtils.php',
     'Wikimedia\\ObjectFactory' => $vendorDir . '/wikimedia/object-factory/src/ObjectFactory.php',
+    'Wikimedia\\ObjectFactory\\ObjectFactory' => $vendorDir . '/wikimedia/object-factory/src/ObjectFactory/ObjectFactory.php',
     'Wikimedia\\PSquare' => $vendorDir . '/wikimedia/running-stat/src/Wikimedia/PSquare.php',
     'Wikimedia\\Parsoid\\Config\\Api\\ApiHelper' => $vendorDir . '/wikimedia/parsoid/src/Config/Api/ApiHelper.php',
     'Wikimedia\\Parsoid\\Config\\Api\\DataAccess' => $vendorDir . '/wikimedia/parsoid/src/Config/Api/DataAccess.php',
