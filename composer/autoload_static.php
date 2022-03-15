@@ -15,9 +15,9 @@ class ComposerStaticInit_mediawiki_vendor
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         'c50606d667a3fde2b80a955639479d3d' => __DIR__ . '/..' . '/wikimedia/timestamp/src/defines.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '4d945db823e5f6ca6dd83ad1f5fbcc43' => __DIR__ . '/..' . '/wikimedia/relpath/src/RelPath/RelPath.php',
         '6513700b70192b7dfd0e5e9fc8082cf3' => __DIR__ . '/..' . '/wikimedia/relpath/src/Wikimedia/RelPath.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -141,9 +141,9 @@ class ComposerStaticInit_mediawiki_vendor
         array (
             0 => __DIR__ . '/..' . '/wikimedia/ip-set/src',
             1 => __DIR__ . '/..' . '/wikimedia/ip-utils/src',
-            2 => __DIR__ . '/..' . '/wikimedia/scoped-callback/src',
-            3 => __DIR__ . '/..' . '/wikimedia/wrappedstring/src',
-            4 => __DIR__ . '/..' . '/wikimedia/object-factory/src',
+            2 => __DIR__ . '/..' . '/wikimedia/object-factory/src',
+            3 => __DIR__ . '/..' . '/wikimedia/scoped-callback/src',
+            4 => __DIR__ . '/..' . '/wikimedia/wrappedstring/src',
         ),
         'WikiPEG\\Tests\\' => 
         array (
@@ -525,6 +525,7 @@ class ComposerStaticInit_mediawiki_vendor
         'PEAR' => __DIR__ . '/..' . '/pear/pear-core-minimal/src/PEAR.php',
         'PEAR_ErrorStack' => __DIR__ . '/..' . '/pear/pear-core-minimal/src/PEAR/ErrorStack.php',
         'PEAR_Exception' => __DIR__ . '/..' . '/pear/pear_exception/PEAR/Exception.php',
+        'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
         'Pleo\\BloomFilter\\BitArray' => __DIR__ . '/..' . '/pleonasm/bloom-filter/src/BitArray.php',
         'Pleo\\BloomFilter\\BloomFilter' => __DIR__ . '/..' . '/pleonasm/bloom-filter/src/BloomFilter.php',
         'Pleo\\BloomFilter\\HasherList' => __DIR__ . '/..' . '/pleonasm/bloom-filter/src/HasherList.php',
@@ -631,6 +632,7 @@ class ComposerStaticInit_mediawiki_vendor
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Polyfill\\Intl\\Idn\\Idn' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/Idn.php',
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
+        'Symfony\\Polyfill\\Php80\\PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/PhpToken.php',
         'System' => __DIR__ . '/..' . '/pear/pear-core-minimal/src/System.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'UtfNormal\\Constants' => __DIR__ . '/..' . '/wikimedia/utfnormal/src/Constants.php',

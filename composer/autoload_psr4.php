@@ -19,7 +19,7 @@ return array(
     'Wikimedia\\CommonPasswords\\' => array($vendorDir . '/wikimedia/common-passwords/src/CommonPasswords'),
     'Wikimedia\\AtEase\\' => array($vendorDir . '/wikimedia/at-ease/src/Wikimedia/AtEase'),
     'Wikimedia\\Assert\\' => array($vendorDir . '/wikimedia/assert/src'),
-    'Wikimedia\\' => array($vendorDir . '/wikimedia/ip-set/src', $vendorDir . '/wikimedia/ip-utils/src', $vendorDir . '/wikimedia/scoped-callback/src', $vendorDir . '/wikimedia/wrappedstring/src', $vendorDir . '/wikimedia/object-factory/src'),
+    'Wikimedia\\' => array($vendorDir . '/wikimedia/ip-set/src', $vendorDir . '/wikimedia/ip-utils/src', $vendorDir . '/wikimedia/object-factory/src', $vendorDir . '/wikimedia/scoped-callback/src', $vendorDir . '/wikimedia/wrappedstring/src'),
     'WikiPEG\\Tests\\' => array($vendorDir . '/wikimedia/wikipeg/tests/php'),
     'WikiPEG\\' => array($vendorDir . '/wikimedia/wikipeg/src'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
