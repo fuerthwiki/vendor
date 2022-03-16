@@ -22,10 +22,8 @@ class ComposerAutoloaderInit_mediawiki_vendor
             return self::$loader;
         }
 
-        require __DIR__ . '/platform_check.php';
-
         spl_autoload_register(array('ComposerAutoloaderInit_mediawiki_vendor', 'loadClassLoader'), true, false);
-        self::$loader = $loader = new \Composer\Autoload\ClassLoader(\dirname(\dirname(__FILE__)));
+        self::$loader = $loader = new \Composer\Autoload\ClassLoader();
         spl_autoload_unregister(array('ComposerAutoloaderInit_mediawiki_vendor', 'loadClassLoader'));
 
         $includePaths = require __DIR__ . '/include_paths.php';
@@ -34,7 +32,7 @@ class ComposerAutoloaderInit_mediawiki_vendor
 
         $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION') && (!function_exists('zend_loader_file_encoded') || !zend_loader_file_encoded());
         if ($useStaticLoader) {
-            require __DIR__ . '/autoload_static.php';
+            require_once __DIR__ . '/autoload_static.php';
 
             call_user_func(\Composer\Autoload\ComposerStaticInit_mediawiki_vendor::getInitializer($loader));
         } else {
@@ -69,16 +67,11 @@ class ComposerAutoloaderInit_mediawiki_vendor
     }
 }
 
-/**
- * @param string $fileIdentifier
- * @param string $file
- * @return void
- */
 function composerRequire_mediawiki_vendor($fileIdentifier, $file)
 {
     if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
-        $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
-
         require $file;
+
+        $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
     }
 }
