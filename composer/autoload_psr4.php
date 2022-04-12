@@ -69,6 +69,7 @@ return array(
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Geocoder\\' => array($vendorDir . '/willdurand/geocoder'),
+    'GeoJson\\' => array($vendorDir . '/jmikola/geojson/src'),
     'FileFetcher\\Cache\\' => array($vendorDir . '/jeroen/file-fetcher-cache/src'),
     'FileFetcher\\' => array($vendorDir . '/jeroen/file-fetcher/src'),
     'Elasticsearch\\' => array($vendorDir . '/elasticsearch/elasticsearch/src/Elasticsearch'),

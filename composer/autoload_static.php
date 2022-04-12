@@ -11,9 +11,9 @@ class ComposerStaticInit_mediawiki_vendor
         'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         '94e265ce14c952a920a4ea5f7e8e9baa' => __DIR__ . '/..' . '/mediawiki/parser-hooks/ParserHooks.php',
         '5a04c63399fef01344b45823e301d04d' => __DIR__ . '/..' . '/onoi/shared-resources/Resources.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '8592c7b0947d8a0965a9e8c3d16f9c24' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/autoload.php',
         'cd9b6b6b76aed1304a64986142337d3a' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         'eccc0347283a01e62f5536bcf76b6e62' => __DIR__ . '/..' . '/wikimedia/at-ease/src/Wikimedia/Functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
@@ -134,6 +134,7 @@ class ComposerStaticInit_mediawiki_vendor
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'Geocoder\\' => 9,
+            'GeoJson\\' => 8,
         ),
         'F' => 
         array (
@@ -419,6 +420,10 @@ class ComposerStaticInit_mediawiki_vendor
         array (
             0 => __DIR__ . '/..' . '/willdurand/geocoder',
         ),
+        'GeoJson\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jmikola/geojson/src',
+        ),
         'FileFetcher\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/jeroen/file-fetcher-cache/src',
@@ -491,13 +496,6 @@ class ComposerStaticInit_mediawiki_vendor
             'Less' => 
             array (
                 0 => __DIR__ . '/..' . '/wikimedia/less.php/lib',
-            ),
-        ),
-        'G' => 
-        array (
-            'GeoJson\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/jmikola/geojson/src',
             ),
         ),
         'C' => 
@@ -1042,25 +1040,25 @@ class ComposerStaticInit_mediawiki_vendor
         'FileFetcher\\SpyingFileFetcher' => __DIR__ . '/..' . '/jeroen/file-fetcher/src/SpyingFileFetcher.php',
         'FileFetcher\\StubFileFetcher' => __DIR__ . '/..' . '/jeroen/file-fetcher/src/StubFileFetcher.php',
         'FileFetcher\\ThrowingFileFetcher' => __DIR__ . '/..' . '/jeroen/file-fetcher/src/ThrowingFileFetcher.php',
-        'GeoJson\\BoundingBox' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/BoundingBox.php',
-        'GeoJson\\CoordinateReferenceSystem\\CoordinateReferenceSystem' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/CoordinateReferenceSystem/CoordinateReferenceSystem.php',
-        'GeoJson\\CoordinateReferenceSystem\\Linked' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/CoordinateReferenceSystem/Linked.php',
-        'GeoJson\\CoordinateReferenceSystem\\Named' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/CoordinateReferenceSystem/Named.php',
-        'GeoJson\\Exception\\Exception' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Exception/Exception.php',
-        'GeoJson\\Exception\\UnserializationException' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Exception/UnserializationException.php',
-        'GeoJson\\Feature\\Feature' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Feature/Feature.php',
-        'GeoJson\\Feature\\FeatureCollection' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Feature/FeatureCollection.php',
-        'GeoJson\\GeoJson' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/GeoJson.php',
-        'GeoJson\\Geometry\\Geometry' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Geometry/Geometry.php',
-        'GeoJson\\Geometry\\GeometryCollection' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Geometry/GeometryCollection.php',
-        'GeoJson\\Geometry\\LineString' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Geometry/LineString.php',
-        'GeoJson\\Geometry\\LinearRing' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Geometry/LinearRing.php',
-        'GeoJson\\Geometry\\MultiLineString' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Geometry/MultiLineString.php',
-        'GeoJson\\Geometry\\MultiPoint' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Geometry/MultiPoint.php',
-        'GeoJson\\Geometry\\MultiPolygon' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Geometry/MultiPolygon.php',
-        'GeoJson\\Geometry\\Point' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Geometry/Point.php',
-        'GeoJson\\Geometry\\Polygon' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/Geometry/Polygon.php',
-        'GeoJson\\JsonUnserializable' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson/JsonUnserializable.php',
+        'GeoJson\\BoundingBox' => __DIR__ . '/..' . '/jmikola/geojson/src/BoundingBox.php',
+        'GeoJson\\CoordinateReferenceSystem\\CoordinateReferenceSystem' => __DIR__ . '/..' . '/jmikola/geojson/src/CoordinateReferenceSystem/CoordinateReferenceSystem.php',
+        'GeoJson\\CoordinateReferenceSystem\\Linked' => __DIR__ . '/..' . '/jmikola/geojson/src/CoordinateReferenceSystem/Linked.php',
+        'GeoJson\\CoordinateReferenceSystem\\Named' => __DIR__ . '/..' . '/jmikola/geojson/src/CoordinateReferenceSystem/Named.php',
+        'GeoJson\\Exception\\Exception' => __DIR__ . '/..' . '/jmikola/geojson/src/Exception/Exception.php',
+        'GeoJson\\Exception\\UnserializationException' => __DIR__ . '/..' . '/jmikola/geojson/src/Exception/UnserializationException.php',
+        'GeoJson\\Feature\\Feature' => __DIR__ . '/..' . '/jmikola/geojson/src/Feature/Feature.php',
+        'GeoJson\\Feature\\FeatureCollection' => __DIR__ . '/..' . '/jmikola/geojson/src/Feature/FeatureCollection.php',
+        'GeoJson\\GeoJson' => __DIR__ . '/..' . '/jmikola/geojson/src/GeoJson.php',
+        'GeoJson\\Geometry\\Geometry' => __DIR__ . '/..' . '/jmikola/geojson/src/Geometry/Geometry.php',
+        'GeoJson\\Geometry\\GeometryCollection' => __DIR__ . '/..' . '/jmikola/geojson/src/Geometry/GeometryCollection.php',
+        'GeoJson\\Geometry\\LineString' => __DIR__ . '/..' . '/jmikola/geojson/src/Geometry/LineString.php',
+        'GeoJson\\Geometry\\LinearRing' => __DIR__ . '/..' . '/jmikola/geojson/src/Geometry/LinearRing.php',
+        'GeoJson\\Geometry\\MultiLineString' => __DIR__ . '/..' . '/jmikola/geojson/src/Geometry/MultiLineString.php',
+        'GeoJson\\Geometry\\MultiPoint' => __DIR__ . '/..' . '/jmikola/geojson/src/Geometry/MultiPoint.php',
+        'GeoJson\\Geometry\\MultiPolygon' => __DIR__ . '/..' . '/jmikola/geojson/src/Geometry/MultiPolygon.php',
+        'GeoJson\\Geometry\\Point' => __DIR__ . '/..' . '/jmikola/geojson/src/Geometry/Point.php',
+        'GeoJson\\Geometry\\Polygon' => __DIR__ . '/..' . '/jmikola/geojson/src/Geometry/Polygon.php',
+        'GeoJson\\JsonUnserializable' => __DIR__ . '/..' . '/jmikola/geojson/src/JsonUnserializable.php',
         'Geocoder\\Assert' => __DIR__ . '/..' . '/willdurand/geocoder/Assert.php',
         'Geocoder\\Collection' => __DIR__ . '/..' . '/willdurand/geocoder/Collection.php',
         'Geocoder\\Dumper\\AbstractArrayDumper' => __DIR__ . '/..' . '/willdurand/geocoder/Dumper/AbstractArrayDumper.php',
@@ -1277,7 +1275,6 @@ class ComposerStaticInit_mediawiki_vendor
         'JsonSchema\\Uri\\UriResolver' => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema/Uri/UriResolver.php',
         'JsonSchema\\Uri\\UriRetriever' => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema/Uri/UriRetriever.php',
         'JsonSchema\\Validator' => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema/Validator.php',
-        'JsonSerializable' => __DIR__ . '/..' . '/jmikola/geojson/stubs/JsonSerializable.php',
         'Less_Autoloader' => __DIR__ . '/..' . '/wikimedia/less.php/lib/Less/Autoloader.php',
         'Less_Cache' => __DIR__ . '/..' . '/wikimedia/less.php/lib/Less/Cache.php',
         'Less_Colors' => __DIR__ . '/..' . '/wikimedia/less.php/lib/Less/Colors.php',

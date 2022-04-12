@@ -937,17 +937,17 @@
     },
     {
         "name": "guzzlehttp/psr7",
-        "version": "1.8.3",
-        "version_normalized": "1.8.3.0",
+        "version": "1.8.5",
+        "version_normalized": "1.8.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/guzzle/psr7.git",
-            "reference": "1afdd860a2566ed3c2b0b4a3de6e23434a79ec85"
+            "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/psr7/zipball/1afdd860a2566ed3c2b0b4a3de6e23434a79ec85",
-            "reference": "1afdd860a2566ed3c2b0b4a3de6e23434a79ec85",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/337e3ad8e5716c15f9657bd214d16cc5e69df268",
+            "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268",
             "shasum": ""
         },
         "require": {
@@ -965,7 +965,7 @@
         "suggest": {
             "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
         },
-        "time": "2021-10-05T13:56:00+00:00",
+        "time": "2022-03-20T21:51:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -974,12 +974,12 @@
         },
         "installation-source": "dist",
         "autoload": {
-            "psr-4": {
-                "GuzzleHttp\\Psr7\\": "src/"
-            },
             "files": [
                 "src/functions_include.php"
-            ]
+            ],
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
@@ -1297,40 +1297,42 @@
     },
     {
         "name": "jmikola/geojson",
-        "version": "1.0.3",
-        "version_normalized": "1.0.3.0",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/jmikola/geojson.git",
-            "reference": "f5b122e15c804fabc5881da214c57d52ea0c5715"
+            "reference": "8a0c5a88098bc70d05a4cb491ed77303ce9ff075"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/jmikola/geojson/zipball/f5b122e15c804fabc5881da214c57d52ea0c5715",
-            "reference": "f5b122e15c804fabc5881da214c57d52ea0c5715",
+            "url": "https://api.github.com/repos/jmikola/geojson/zipball/8a0c5a88098bc70d05a4cb491ed77303ce9ff075",
+            "reference": "8a0c5a88098bc70d05a4cb491ed77303ce9ff075",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.3"
+            "ext-json": "*",
+            "php": "^7.4 || ^8.0",
+            "symfony/polyfill-php80": "^1.25"
         },
         "require-dev": {
-            "phpunit/phpunit": "~3.7"
+            "phpunit/phpunit": "^9.5",
+            "scrutinizer/ocular": "^1.8.1",
+            "slevomat/coding-standard": "^7.0",
+            "squizlabs/php_codesniffer": "^3.6"
         },
-        "time": "2022-01-21T04:20:33+00:00",
+        "time": "2022-04-10T23:56:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.0-dev"
+                "dev-master": "1.1-dev"
             }
         },
         "installation-source": "dist",
         "autoload": {
-            "psr-0": {
-                "GeoJson\\": "src/"
-            },
-            "classmap": [
-                "stubs/"
-            ]
+            "psr-4": {
+                "GeoJson\\": "src"
+            }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
@@ -1557,24 +1559,24 @@
     },
     {
         "name": "mediawiki/mermaid",
-        "version": "3.0.1",
-        "version_normalized": "3.0.1.0",
+        "version": "3.1.0",
+        "version_normalized": "3.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/SemanticMediaWiki/Mermaid.git",
-            "reference": "774cf6cfb4d35154640b859e188f872272ddf636"
+            "reference": "fd792683fef3c84a7cdd56f8f474c4da0dd630f2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/SemanticMediaWiki/Mermaid/zipball/774cf6cfb4d35154640b859e188f872272ddf636",
-            "reference": "774cf6cfb4d35154640b859e188f872272ddf636",
+            "url": "https://api.github.com/repos/SemanticMediaWiki/Mermaid/zipball/fd792683fef3c84a7cdd56f8f474c4da0dd630f2",
+            "reference": "fd792683fef3c84a7cdd56f8f474c4da0dd630f2",
             "shasum": ""
         },
         "require": {
             "composer/installers": "1.*,>=1.0.1",
             "php": ">=7.0.0"
         },
-        "time": "2021-01-14T01:14:29+00:00",
+        "time": "2022-04-06T07:24:13+00:00",
         "type": "mediawiki-extension",
         "extra": {
             "branch-alias": {
