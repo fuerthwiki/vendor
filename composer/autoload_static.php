@@ -40,7 +40,6 @@ class ComposerStaticInit_mediawiki_vendor
         array (
             'Wikimedia\\Zest\\' => 15,
             'Wikimedia\\XMPReader\\' => 20,
-            'Wikimedia\\WikiPEG\\' => 18,
             'Wikimedia\\Timestamp\\' => 20,
             'Wikimedia\\Services\\' => 19,
             'Wikimedia\\Purtle\\Tests\\' => 23,
@@ -52,6 +51,7 @@ class ComposerStaticInit_mediawiki_vendor
             'Wikimedia\\AtEase\\' => 17,
             'Wikimedia\\Assert\\' => 17,
             'Wikimedia\\' => 10,
+            'WikiPEG\\Tests\\' => 14,
             'WikiPEG\\' => 8,
         ),
         'V' => 
@@ -168,10 +168,6 @@ class ComposerStaticInit_mediawiki_vendor
         array (
             0 => __DIR__ . '/..' . '/wikimedia/xmp-reader/src',
         ),
-        'Wikimedia\\WikiPEG\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/wikimedia/wikipeg/src',
-        ),
         'Wikimedia\\Timestamp\\' => 
         array (
             0 => __DIR__ . '/..' . '/wikimedia/timestamp/src',
@@ -219,6 +215,10 @@ class ComposerStaticInit_mediawiki_vendor
             2 => __DIR__ . '/..' . '/wikimedia/object-factory/src',
             3 => __DIR__ . '/..' . '/wikimedia/scoped-callback/src',
             4 => __DIR__ . '/..' . '/wikimedia/wrappedstring/src',
+        ),
+        'WikiPEG\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wikimedia/wikipeg/tests/php',
         ),
         'WikiPEG\\' => 
         array (
@@ -3072,6 +3072,14 @@ class ComposerStaticInit_mediawiki_vendor
         'ValueValidators\\StringValidator' => __DIR__ . '/..' . '/data-values/validators/src/StringValidator.php',
         'ValueValidators\\TitleValidator' => __DIR__ . '/..' . '/data-values/validators/src/TitleValidator.php',
         'ValueValidators\\ValueValidator' => __DIR__ . '/..' . '/data-values/interfaces/src/ValueValidators/ValueValidator.php',
+        'WikiPEG\\DefaultTracer' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/DefaultTracer.php',
+        'WikiPEG\\Expectation' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Expectation.php',
+        'WikiPEG\\InternalError' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/InternalError.php',
+        'WikiPEG\\Location' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Location.php',
+        'WikiPEG\\LocationRange' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/LocationRange.php',
+        'WikiPEG\\PEGParserBase' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/PEGParserBase.php',
+        'WikiPEG\\SyntaxError' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/SyntaxError.php',
+        'WikiPEG\\Tracer' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Tracer.php',
         'Wikimedia\\Assert\\Assert' => __DIR__ . '/..' . '/wikimedia/assert/src/Assert.php',
         'Wikimedia\\Assert\\AssertionException' => __DIR__ . '/..' . '/wikimedia/assert/src/AssertionException.php',
         'Wikimedia\\Assert\\InvariantException' => __DIR__ . '/..' . '/wikimedia/assert/src/InvariantException.php',
@@ -3341,14 +3349,6 @@ class ComposerStaticInit_mediawiki_vendor
         'Wikimedia\\Timestamp\\ConvertibleTimestamp' => __DIR__ . '/..' . '/wikimedia/timestamp/src/ConvertibleTimestamp.php',
         'Wikimedia\\Timestamp\\TimestampException' => __DIR__ . '/..' . '/wikimedia/timestamp/src/TimestampException.php',
         'Wikimedia\\WaitConditionLoop' => __DIR__ . '/..' . '/wikimedia/wait-condition-loop/src/WaitConditionLoop.php',
-        'Wikimedia\\WikiPEG\\DefaultTracer' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/DefaultTracer.php',
-        'Wikimedia\\WikiPEG\\Expectation' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Expectation.php',
-        'Wikimedia\\WikiPEG\\InternalError' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/InternalError.php',
-        'Wikimedia\\WikiPEG\\Location' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Location.php',
-        'Wikimedia\\WikiPEG\\LocationRange' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/LocationRange.php',
-        'Wikimedia\\WikiPEG\\PEGParserBase' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/PEGParserBase.php',
-        'Wikimedia\\WikiPEG\\SyntaxError' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/SyntaxError.php',
-        'Wikimedia\\WikiPEG\\Tracer' => __DIR__ . '/..' . '/wikimedia/wikipeg/src/Tracer.php',
         'Wikimedia\\WrappedString' => __DIR__ . '/..' . '/wikimedia/wrappedstring/src/WrappedString.php',
         'Wikimedia\\WrappedStringList' => __DIR__ . '/..' . '/wikimedia/wrappedstring/src/WrappedStringList.php',
         'Wikimedia\\XMPReader\\Info' => __DIR__ . '/..' . '/wikimedia/xmp-reader/src/Info.php',
